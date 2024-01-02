@@ -1,5 +1,5 @@
 {
-	"name": "python_template",
+	"name": "taichi_sweep",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."

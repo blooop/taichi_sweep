@@ -2,12 +2,14 @@ import numpy as np
 import taichi as ti
 import taichi.math as tm
 from video_writer import VideoWriter
+import bencher as bch
+from copy import deepcopy
+
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
 ti.init(arch=ti.vulkan)
 
-from copy import deepcopy
 
 W, H = 300, 300
 pixels = ti.Vector.field(3, ti.f32, shape=(W, H))
@@ -66,7 +68,6 @@ def render():
 
         pixels[i, j] = color
 
-import bencher as bch
 
 class SweepTuring(bch.ParametrizedSweep):
 

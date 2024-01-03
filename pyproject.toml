@@ -8,7 +8,7 @@ readme = "README.md"
 
 requires-python = ">=3.10"
 
-dependencies = ["numpy>=1.2,<=1.26.2","holobench>=1.3","taichi","moviepy"]
+dependencies = ["numpy>=1.2,<=1.26.2","holobench>=1.3.2","taichi==1.7.0"]
 
 [project.optional-dependencies]
 test = [

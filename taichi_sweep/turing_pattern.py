@@ -2,14 +2,12 @@ import numpy as np
 import taichi as ti
 import taichi.math as tm
 from video_writer import VideoWriter
-import bencher as bch
-from copy import deepcopy
-
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
 ti.init(arch=ti.vulkan)
 
+from copy import deepcopy
 
 W, H = 300, 300
 pixels = ti.Vector.field(3, ti.f32, shape=(W, H))
@@ -74,6 +72,9 @@ def render():
         pixels[i, j] = color
 
 
+import bencher as bch
+
+
 class SweepTuring(bch.ParametrizedSweep):
     # Du, Dv, feed, kill = 0.160, 0.080, 0.060, 0.062
     # Du, Dv, feed, kill = 0.210, 0.105, 0.018, 0.051
@@ -85,8 +86,8 @@ class SweepTuring(bch.ParametrizedSweep):
 
     Du = bch.FloatSweep(default=0.160, bounds=(0.08, 0.40))
     Dv = bch.FloatSweep(default=0.08, bounds=(0.04, 0.10))
-    feed = bch.FloatSweep(default=0.06, bounds=(0.06, 0.18))
-    kill = bch.FloatSweep(default=0.062, bounds=(0.051, 0.062))
+    feed = bch.FloatSweep(default=0.06, bounds=(0.03, 0.07))
+    kill = bch.FloatSweep(default=0.062, bounds=(0.060, 0.064))
 
     bitrate = bch.FloatSweep(default=1000, bounds=(100, 2000))
 
@@ -114,7 +115,7 @@ class SweepTuring(bch.ParametrizedSweep):
             render()
             vr.update_gui(pixels)
 
-        self.vid = self.gen_video_path("turing")
+        self.vid = bch.gen_video_path("turing")
         vr.write(self.vid, self.bitrate)
 
         # gui.destroy()
@@ -129,13 +130,65 @@ if __name__ == "__main__":
     run_cfg.run_tag = "1"
     bench = SweepTuring().to_bench(run_cfg)
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv,SweepTuring.param.feed,SweepTuring.param.kill])
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv])
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
 
     SweepTuring.param.Du.bounds = [0.13, 0.19]
     SweepTuring.param.Dv.bounds = [0.08, 0.09]
     run_cfg.level = 4
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv])
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
+
+    run_cfg.level = 4
+
+    SweepTuring.param.Du.default = 0.176
+    SweepTuring.param.Dv.default = 0.0825
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
+
+    # SweepTuring.param.Du.default = 0.176
+    # SweepTuring.param.Dv.default = 0.0825
+
+    # bench.plot_sweep("turing",)
+
+    SweepTuring.param.feed.default = 0.03
+    SweepTuring.param.kill.default = 0.064
+
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
+    SweepTuring.param.Du.bounds = None
+    SweepTuring.param.Dv.bounds = None
+    SweepTuring.param.feed.bounds = None
+    SweepTuring.param.kill.bounds = None
+
+    def box(name, center, width):
+        var = bch.FloatSweep(default=center, bounds=(center - width, center + width))
+        var.name = name
+        return var
+
+    wid = 0.001
+
+    run_cfg.level = 2
+
+    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.064,wid)])
+
+    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.06,0.001)])
+
+    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.00725,0.001),box("feed",0.03,wid),box("kill",0.06,0.001)])
+
+    wid = 0.001
+    run_cfg.level = 3
+
+    bench.plot_sweep(
+        "turing",
+        input_vars=[box("Du", 0.176, wid), box("Dv", 0.00725, 0.001), box("feed", 0.03, wid)],
+    )
+
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
+
+    # SweepTuring.param.Dv.default = 0.0825
+
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
+
+    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.col])
+
     # bench.plot_sweep("turing",input_vars=[SweepTuring.param.bitrate])
-    bench.report.save_index()
+    # bench.report.save_index()
     bench.report.show()

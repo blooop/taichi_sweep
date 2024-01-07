@@ -151,7 +151,7 @@ class SweepTuring(bch.ParametrizedSweep):
         vr.write(self.vid, self.bitrate)
 
         if self.record_volume_vid:
-            # plt.close()
+            plt.close()
             plt.close_window()
             video.close()
         gui.close()

@@ -130,6 +130,47 @@ if __name__ == "__main__":
     run_cfg.run_tag = "1"
     bench = SweepTuring().to_bench(run_cfg)
 
+    SweepTuring.param.Du.bounds = [0.13, 0.19]
+    # SweepTuring.param.Dv.bounds = [0.08, 0.09]
+
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Du], plot=False)
+    import panel as pn
+
+    # row = []
+    row = pn.Row()
+    # row.append(bench.get_result().to_dataset())
+    row.append(bench.get_result().to_video())
+    # row.append(bench.get_result().to_video())
+
+    SweepTuring.param.Du.default = 0.145
+
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Dv], plot=False)
+    # row.append(bench.get_result().to_dataset())
+    row.append(bench.get_result().to_video())
+
+    SweepTuring.param.Dv.default = 0.07
+
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.feed], plot=False)
+    # row.append(bench.get_result().to_dataset())
+    row.append(bench.get_result().to_video())
+
+    # row.append(bench.get_result().to_dataset())
+
+    # merged =
+
+    # bench.report.append(pn.Row(row))
+
+    SweepTuring.param.feed.default = 0.07
+
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.kill], plot=False)
+    row.append(bench.get_result().to_video())
+
+    bench.report.append(row)
+
+    bench.report.show()
+
+    exit()
+
     # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
 
     SweepTuring.param.Du.bounds = [0.13, 0.19]

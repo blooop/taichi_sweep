@@ -4,7 +4,6 @@ import taichi as ti
 import taichi.math as tm
 from video_writer import VideoWriter
 from vedo import Volume
-from copy import deepcopy
 import bencher as bch
 import panel as pn
 import pyvista as pv
@@ -12,9 +11,9 @@ from vedo import Plotter, Video
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
+
 @ti.data_oriented
 class SweepTuring(bch.ParametrizedSweep):
-
     Du = bch.FloatSweep(default=0.160, bounds=(0.08, 0.40))
     Dv = bch.FloatSweep(default=0.08, bounds=(0.04, 0.10))
     feed = bch.FloatSweep(default=0.06, bounds=(0.03, 0.07))
@@ -28,13 +27,11 @@ class SweepTuring(bch.ParametrizedSweep):
 
     video_wiggle = bch.FloatSweep(default=0.02)
 
-
     record_volume_vid = bch.BoolSweep(default=False)
 
     headless = False
 
-    resolution = bch.IntSweep(default=100,bounds=(10,200))
-
+    resolution = bch.IntSweep(default=100, bounds=(10, 200))
 
     vid = bch.ResultVideo()
     voxel = bch.ResultReference()
@@ -46,7 +43,6 @@ class SweepTuring(bch.ParametrizedSweep):
         self.pixels = ti.Vector.field(3, ti.f32, shape=(self.resolution, self.resolution))
         self.uv = ti.Vector.field(2, ti.f32, shape=(2, self.resolution, self.resolution))
         self.values = ti.Vector.field(1, ti.f32, shape=(self.resolution, self.resolution))
-
 
         uv_grid = np.zeros((2, self.resolution, self.resolution, 2), dtype=np.float32)
         uv_grid[0, :, :, 0] = 1.0
@@ -66,10 +62,8 @@ class SweepTuring(bch.ParametrizedSweep):
         # uv_deep = deepcopy(uv_grid)
         self.uv.from_numpy(uv_grid)
 
-
-
     @ti.kernel
-    def compute(self,phase: int, Du: float, Dv: float, feed: float, kill: float):
+    def compute(self, phase: int, Du: float, Dv: float, feed: float, kill: float):
         for i, j in ti.ndrange(self.resolution, self.resolution):
             cen = self.uv[phase, i, j]
             lapl = (
@@ -83,7 +77,6 @@ class SweepTuring(bch.ParametrizedSweep):
             dv = Dv * lapl[1] + cen[0] * cen[1] * cen[1] - (feed + kill) * cen[1]
             val = cen + 0.5 * tm.vec2(du, dv)
             self.uv[1 - phase, i, j] = val
-
 
     @ti.kernel
     def render(self):
@@ -102,17 +95,15 @@ class SweepTuring(bch.ParametrizedSweep):
 
             self.pixels[i, j] = color
 
-
     @ti.kernel
     def get_val(self):
         for i, j in self.pixels:
             self.values[i, j] = self.uv[0, i, j].y
 
-
     def __call__(self, **kwargs):
         self.update_params_from_kwargs(**kwargs)
         self.setup()
-        gui = ti.GUI("turing", res=self.resolution,show_gui=not self.headless)
+        gui = ti.GUI("turing", res=self.resolution, show_gui=not self.headless)
         vr = VideoWriter(gui)
         self.vid = bch.gen_video_path("turing")
         if self.record_volume_vid:
@@ -156,7 +147,6 @@ class SweepTuring(bch.ParametrizedSweep):
             video.close()
         gui.close()
 
-        
         return super().__call__()
 
 

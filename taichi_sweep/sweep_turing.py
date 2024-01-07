@@ -7,18 +7,15 @@ if __name__ == "__main__":
     run_cfg.level = 4
     run_cfg.use_sample_cache = True
     run_cfg.run_tag = "sweep_turing_1"
-    run_cfg.plot_size=200
+    run_cfg.plot_size = 200
 
     turing = SweepTuring()
     turing.headless = True
     bench = turing.to_bench(run_cfg)
 
-    kwargs = dict(result_vars=["vid"],const_vars=[["duration",25],["resolution",200]])
+    kwargs = dict(result_vars=["vid"], const_vars=[["duration", 25], ["resolution", 200]])
 
-
-    bench.plot_sweep(
-        input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv], **kwargs
-    )
+    bench.plot_sweep(input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv], **kwargs)
 
     SweepTuring.param.Du.bounds = [0.13, 0.19]
     SweepTuring.param.Dv.bounds = [0.08, 0.09]
@@ -29,9 +26,7 @@ if __name__ == "__main__":
 
     SweepTuring.param.Du.default = 0.176
     SweepTuring.param.Dv.default = 0.0825
-    bench.plot_sweep(
-        input_vars=[SweepTuring.param.feed, SweepTuring.param.kill], **kwargs
-    )
+    bench.plot_sweep(input_vars=[SweepTuring.param.feed, SweepTuring.param.kill], **kwargs)
 
     SweepTuring.param.Du.default = 0.176
     SweepTuring.param.Dv.default = 0.0825
@@ -39,9 +34,7 @@ if __name__ == "__main__":
     SweepTuring.param.feed.default = 0.03
     SweepTuring.param.kill.default = 0.064
 
-    bench.plot_sweep(
-        input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv], **kwargs
-    )
+    bench.plot_sweep(input_vars=[SweepTuring.param.Du, SweepTuring.param.Dv], **kwargs)
 
     SweepTuring.param.Du.bounds = None
     SweepTuring.param.Dv.bounds = None

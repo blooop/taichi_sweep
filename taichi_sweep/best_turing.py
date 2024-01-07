@@ -7,31 +7,28 @@ if __name__ == "__main__":
     run_cfg.level = 3
     run_cfg.use_sample_cache = True
     run_cfg.run_tag = "best_2"
-    run_cfg.plot_size=400
+    run_cfg.plot_size = 400
 
     turing = SweepTuring()
     turing.headless = True
     bench = turing.to_bench(run_cfg)
 
-    bench.worker_class_instance.param.record_volume_vid=True
+    bench.worker_class_instance.param.record_volume_vid = True
     # SweepTuring().param.record_volume_vid=True
 
     args = {}
-    result_vars = ["vid","voxel"]
+    result_vars = ["vid", "voxel"]
     result_vars = None
 
-    const_vars = [["duration",40],["resolution",200],["feed",0.3],["record_volume_vid",True]]
+    const_vars = [["duration", 40], ["resolution", 200], ["feed", 0.3], ["record_volume_vid", True]]
 
-    kwargs = dict(result_vars=result_vars,const_vars=const_vars)
+    kwargs = dict(result_vars=result_vars, const_vars=const_vars)
 
     # const_vars = [SweepTuring.param.feed.with_const(0.03),(SweepTuring.param.record_volume_vid,False),(SweepTuring.param.headless,True)]
     # bench.plot_sweep(input_vars=["feed","Dv"])
-    bench.plot_sweep(input_vars=["feed"],**kwargs)
+    bench.plot_sweep(input_vars=["feed"], **kwargs)
 
     bench.report.save_index()
-
-
-
 
     # v_list=[]
     # v_list.append([0.16,0.08,0.06,0.062])
@@ -76,10 +73,9 @@ if __name__ == "__main__":
     #     )
 
     # for res in bench.results:
-        # bench.report.append(res.to_auto(width=600, height=600))
-        # bench.report.append(res.to_auto(width=300, height=300))
+    # bench.report.append(res.to_auto(width=600, height=600))
+    # bench.report.append(res.to_auto(width=300, height=300))
 
-        # bench.report.append(res.to_auto())
-
+    # bench.report.append(res.to_auto())
 
     bench.report.show()

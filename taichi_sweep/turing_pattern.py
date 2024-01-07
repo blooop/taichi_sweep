@@ -121,7 +121,7 @@ class SweepTuring(bch.ParametrizedSweep):
             self.get_val()
             stacked_volume[:, :, frame] = self.values.to_numpy().squeeze()
             if self.record_volume_vid:
-                vol = Volume(stacked_volume)
+                vol = Volume(stacked_volume[:,:,:frame])
                 vol.mode(self.rendermode).cmap("jet")
                 plt.add(vol)
                 scale = self.video_wiggle

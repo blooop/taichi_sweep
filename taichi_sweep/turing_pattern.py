@@ -7,7 +7,7 @@ from vedo import Volume
 import bencher as bch
 import panel as pn
 import pyvista as pv
-from vedo import Plotter, Video
+from vedo import Plotter
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
@@ -124,7 +124,7 @@ class SweepTuring(bch.ParametrizedSweep):
             self.get_val()
             stacked_volume[:, :, frame] = self.values.to_numpy().squeeze()
             if self.record_volume_vid:
-                vol = Volume(stacked_volume[:,:,:frame])
+                vol = Volume(stacked_volume[:, :, :frame])
                 vol.mode(self.rendermode).cmap("jet")
                 plt.add(vol)
                 scale = self.video_wiggle

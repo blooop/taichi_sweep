@@ -24,11 +24,18 @@ if __name__ == "__main__":
 
     kwargs = dict(result_vars=result_vars, const_vars=const_vars)
 
+    def publish_args(branch_name):
+        return (
+            "https://github.com/blooop/turing_sweep.git",
+            f"https://github.com/blooop/turing_sweep/blob/{branch_name}")
+
+
     # const_vars = [SweepTuring.param.feed.with_const(0.03),(SweepTuring.param.record_volume_vid,False),(SweepTuring.param.headless,True)]
     # bench.plot_sweep(input_vars=["feed","Dv"])
     bench.plot_sweep(input_vars=["feed"], **kwargs)
+    bench.report.publish(publish_args,"docs")
 
-    bench.report.save_index()
+    # bench.report.save_index()
 
     # v_list=[]
     # v_list.append([0.16,0.08,0.06,0.062])

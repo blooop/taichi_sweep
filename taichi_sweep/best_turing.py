@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # turing.param.feed.bounds=(0.3,0.8)
     bench.plot_sweep(input_vars=["feed"], **kwargs)
 
-    # bench.report.save_index()
+    bench.report.save_index()
 
     # v_list=[]
     # v_list.append([0.16,0.08,0.06,0.062])

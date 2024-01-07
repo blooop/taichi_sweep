@@ -107,7 +107,7 @@ class SweepTuring(bch.ParametrizedSweep):
         vr = VideoWriter(gui)
         self.vid = bch.gen_video_path("turing")
         if self.record_volume_vid:
-            self.vol_vid = bch.gen_video_path("turing_vol", ".mp4")
+            self.vol_vid = bch.gen_video_path("turing_vol", ".webm")
             video = Video(self.vol_vid, fps=30, backend="ffmpeg")
             plt = Plotter(axes=7, offscreen=False, interactive=0, size=(600, 600))
             plt.azimuth(-45)

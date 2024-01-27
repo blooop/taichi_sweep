@@ -4,6 +4,8 @@ set -e
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" #gets the current directory
 cd "$SCRIPT_DIR"/..
 
+git submodule update --init --recursive
+
 CONTAINER_NAME=${PWD##*/}  
 
 echo "stopping existing container" "$CONTAINER_NAME" 

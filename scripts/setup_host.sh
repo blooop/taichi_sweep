@@ -1,6 +1,10 @@
 #! /bin/bash
 
-#install docker
+
+#COPIED FROM OFFICIAL DOCKER INSTALL INSTRUCTIONS
+# https://docs.docker.com/engine/install/ubuntu/
+
+#remove incorrect docker
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 # Add Docker's official GPG key:
@@ -17,17 +21,22 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
+# Install docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+#END OFFICIAL DOCKER INSTALL
 
-pip install rocker off-your-rocker git+https://github.com/blooop/deps_rocker
-
+#INSTALL NVIDIA DOCKER 
+#https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
     sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
     sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+
 sudo apt install git-lfs
 
-sudo nvidia-ctk runtime configure --runtime=docker -h
-sudo systemctl restart docker
+#Install rocker and rocker extensions which are used to launch the devcontainer
+pip install rocker off-your-rocker git+https://github.com/blooop/deps_rocker

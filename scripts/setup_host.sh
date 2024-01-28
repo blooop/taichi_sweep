@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#Sets up docker, nvidia docker git-lfs and rocker which are used to clone and setup docker containers
 
 #COPIED FROM OFFICIAL DOCKER INSTALL INSTRUCTIONS
 # https://docs.docker.com/engine/install/ubuntu/

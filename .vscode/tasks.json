@@ -129,21 +129,7 @@
 				"kind": "build",
 				"isDefault": "True"
 			}
-		},		
-		{
-			"label": "setup: host",
-			"type": "shell",
-			"command": "./scripts/setup_host.sh",
-			"presentation": {
-				"reveal": "always",
-				"panel": "new"
-			  }
-		},
-		{
-			"label": "launch container",
-			"type": "shell",
-			"command": "scripts/launch_vscode.sh"
-		},
+		},				
 	],
 	"inputs": [
 		{

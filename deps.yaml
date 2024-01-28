@@ -2,8 +2,10 @@ apt_base:
   - git
   - git-lfs
   - python3-pip
-  - libxrender1
 
 pip_base:
   - flit
   - pip #updates to latest pip
+
+pip:
+  - pip

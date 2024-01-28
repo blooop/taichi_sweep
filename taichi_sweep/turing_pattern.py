@@ -7,7 +7,7 @@ from vedo import Volume
 import bencher as bch
 import panel as pn
 import pyvista as pv
-from vedo import Plotter, Video
+from vedo import Plotter
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
@@ -16,7 +16,7 @@ from vedo import Plotter, Video
 class SweepTuring(bch.ParametrizedSweep):
     Du = bch.FloatSweep(default=0.160, bounds=(0.08, 0.40))
     Dv = bch.FloatSweep(default=0.08, bounds=(0.04, 0.10))
-    feed = bch.FloatSweep(default=0.06, bounds=(0.03, 0.07))
+    feed = bch.FloatSweep(default=0.04, bounds=(0.03, 0.05))
     kill = bch.FloatSweep(default=0.062, bounds=(0.060, 0.064))
 
     rendermode = bch.IntSweep(default=0, bounds=(0, 4))
@@ -105,10 +105,11 @@ class SweepTuring(bch.ParametrizedSweep):
         self.setup()
         gui = ti.GUI("turing", res=self.resolution, show_gui=not self.headless)
         vr = VideoWriter(gui)
+
         self.vid = bch.gen_video_path("turing")
         if self.record_volume_vid:
-            self.vol_vid = bch.gen_video_path("turing_vol", ".webm")
-            video = Video(self.vol_vid, fps=30, backend="ffmpeg")
+            vedo_vid = bch.VideoWriter("vedovid")
+            self.vol_vid = vedo_vid.filename
             plt = Plotter(axes=7, offscreen=False, interactive=0, size=(600, 600))
             plt.azimuth(-45)
         stacked_volume = np.zeros(shape=(self.resolution, self.resolution, self.duration))
@@ -121,7 +122,7 @@ class SweepTuring(bch.ParametrizedSweep):
             self.get_val()
             stacked_volume[:, :, frame] = self.values.to_numpy().squeeze()
             if self.record_volume_vid:
-                vol = Volume(stacked_volume)
+                vol = Volume(stacked_volume[:, :, :frame])
                 vol.mode(self.rendermode).cmap("jet")
                 plt.add(vol)
                 scale = self.video_wiggle
@@ -129,7 +130,8 @@ class SweepTuring(bch.ParametrizedSweep):
                 plt.camera.Azimuth(math.sin(camera_lerp) * scale)
                 plt.camera.Elevation(math.cos(camera_lerp) * scale)
                 plt.show()
-                video.add_frame()
+                vedo_vid.append(plt.screenshot(asarray=True))
+                # video.add_frame()
                 plt.clear()
 
             gui.show()
@@ -144,7 +146,8 @@ class SweepTuring(bch.ParametrizedSweep):
         if self.record_volume_vid:
             plt.close()
             plt.close_window()
-            video.close()
+            # video.close()
+            vedo_vid.write()
         gui.close()
 
         return super().__call__()

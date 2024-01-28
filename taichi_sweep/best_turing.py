@@ -4,10 +4,10 @@ import bencher as bch
 
 if __name__ == "__main__":
     run_cfg = bch.BenchRunCfg()
-    run_cfg.level = 3
-    run_cfg.use_sample_cache = True
+    run_cfg.level = 2
+    run_cfg.use_sample_cache = False
     run_cfg.run_tag = "best_2"
-    run_cfg.plot_size = 400
+    run_cfg.plot_size = 600
 
     turing = SweepTuring()
     turing.headless = True
@@ -32,6 +32,8 @@ if __name__ == "__main__":
 
     # const_vars = [SweepTuring.param.feed.with_const(0.03),(SweepTuring.param.record_volume_vid,False),(SweepTuring.param.headless,True)]
     # bench.plot_sweep(input_vars=["feed","Dv"])
+
+    # turing.param.feed.bounds=(0.3,0.8)
     bench.plot_sweep(input_vars=["feed"], **kwargs)
     bench.report.publish(publish_args,"docs")
 

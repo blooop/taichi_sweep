@@ -109,7 +109,7 @@
 			"label": "flit publish",
 			"type": "shell",
 			"command": "flit publish"
-		},
+		},	
 		{
 			"label": "set <cfg> from active file; sa",
 			"type": "shell",
@@ -129,7 +129,7 @@
 				"kind": "build",
 				"isDefault": "True"
 			}
-		},		
+		},				
 	],
 	"inputs": [
 		{

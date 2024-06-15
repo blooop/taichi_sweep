@@ -1,6 +1,6 @@
 # Changelog
 
-## python_template
+## taichi_sweep
 
 ## [0.0.0]
 

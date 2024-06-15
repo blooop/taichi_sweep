@@ -1,5 +1,5 @@
 [project]
-name = "python_template"
+name = "taichi_sweep"
 version = "0.2.0"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A python package template"
@@ -20,7 +20,7 @@ python = "3.10.*"
 python = "3.11.*"
 
 [tool.pixi.pypi-dependencies]
-python_template = { path = ".", editable = true }
+taichi_sweep = { path = ".", editable = true }
 
 [tool.pixi.feature.devenv.pypi-dependencies]
 deps-rocker = ">=0.2"
@@ -37,8 +37,8 @@ test = [
 ]
 
 [project.urls]
-Source = "https://github.com/blooop/python_template"
-Home = "https://github.com/blooop/python_template"
+Source = "https://github.com/blooop/taichi_sweep"
+Home = "https://github.com/blooop/taichi_sweep"
 
 [build-system]
 requires = ["setuptools"]
@@ -75,7 +75,7 @@ clear-pixi = "rm -rf .pixi pixi.lock"
 
 
 [tool.setuptools.packages.find]
-include= ["python_template"]
+include= ["taichi_sweep"]
 
 [tool.pylint]
 extension-pkg-whitelist = ["numpy"]

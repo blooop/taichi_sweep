@@ -1,5 +1,5 @@
 from unittest import TestCase
-from python_template.basic_class import BasicClass
+from taichi_sweep.basic_class import BasicClass
 
 
 class TestBasicClass(TestCase):

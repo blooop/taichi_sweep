@@ -10,5 +10,6 @@
 		"**/__pycache__/**": true,
 		"/home/vscode/.local/lib/python3.10/site-packages/taichi_sweep/**": true
 	},
-	"python.analysis.autoImportCompletions": false //vscode gets it wrong more than right and mostly gets in the way
+	"python.analysis.autoImportCompletions": false,
+	"python.defaultInterpreterPath": "/workspaces/taichi_sweep/.pixi/envs/default/bin/python" //vscode gets it wrong more than right and mostly gets in the way
 }

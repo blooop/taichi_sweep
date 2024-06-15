@@ -7,6 +7,7 @@ apt_tools:
   - python3-pip
   - apt-utils
   - jq
+  - libxrender1
 
 pip_language-toolchain:
   - flit

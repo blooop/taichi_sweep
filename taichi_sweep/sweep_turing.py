@@ -1,4 +1,4 @@
-from turing_pattern import SweepTuring
+from taichi_sweep.turing_pattern import SweepTuring
 import bencher as bch
 
 
@@ -6,7 +6,7 @@ if __name__ == "__main__":
     run_cfg = bch.BenchRunCfg()
     run_cfg.level = 4
     run_cfg.use_sample_cache = True
-    run_cfg.run_tag = "sweep_turing_1"
+    run_cfg.run_tag = "sweep_turing_2"
     run_cfg.plot_size = 200
 
     turing = SweepTuring()

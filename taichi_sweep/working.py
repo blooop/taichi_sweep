@@ -1,5 +1,5 @@
 import bencher as bch
-from bencher.example.taichi.turing_pattern import SweepTuring
+from taichi_sweep.turing_pattern import SweepTuring
 
 if __name__ == "__main__":
     run_cfg = bch.BenchRunCfg()

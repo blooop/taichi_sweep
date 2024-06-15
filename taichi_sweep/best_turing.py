@@ -1,4 +1,4 @@
-from turing_pattern import SweepTuring
+from taichi_sweep.turing_pattern import SweepTuring
 import bencher as bch
 
 

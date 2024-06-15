@@ -1,13 +1,14 @@
+import sys
 import numpy as np
 import math
-import taichi as ti
-import taichi.math as tm
-from video_writer import VideoWriter
-from vedo import Volume
+from vedo import Volume, Plotter
 import bencher as bch
 import panel as pn
 import pyvista as pv
-from vedo import Plotter
+import taichi as ti
+import taichi.math as tm
+from taichi_sweep.video_writer import VideoWriter
+
 
 # https://www.degeneratestate.org/posts/2017/May/05/turing-patterns/
 
@@ -36,6 +37,11 @@ class SweepTuring(bch.ParametrizedSweep):
     vid = bch.ResultVideo()
     voxel = bch.ResultReference()
     vol_vid = bch.ResultVideo()
+
+    pixels = None
+    uv = None
+    values = None
+    palette = None
 
     def setup(self):
         ti.init(arch=ti.vulkan)
@@ -145,8 +151,6 @@ class SweepTuring(bch.ParametrizedSweep):
 
         if self.record_volume_vid:
             plt.close()
-            plt.close_window()
-            # video.close()
             vedo_vid.write()
         gui.close()
 
@@ -177,22 +181,24 @@ if __name__ == "__main__":
     plot_kwargs = dict(width=600, height=600)
     # SweepTuring.param.Dv.bounds = [0.08, 0.09]
 
+    bench.plot_callbacks = []
+
     row = pn.Row()
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Du], plot=False)
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Du])
     # bench.report.append(bench.get_result().to_auto(**plot_kwargs))
 
     SweepTuring.param.Du.default = 0.145
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Dv], plot=False)
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.Dv])
     # bench.report.append(bench.get_result().to_auto(**plot_kwargs))
 
     SweepTuring.param.Dv.default = 0.07
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.feed], plot=False)
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.feed])
     bench.report.append(bench.get_result().to_auto(**plot_kwargs))
 
     # row.append(bench.get_result().to_auto(**plot_kwargs))
 
     SweepTuring.param.feed.default = 0.07
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.kill], plot=False)
+    bench.plot_sweep("turing", input_vars=[SweepTuring.param.kill])
     # bench.report.append(bench.get_result().to_auto(**plot_kwargs))
     # row.append(bench.get_result().to_auto(**plot_kwargs))
 
@@ -200,67 +206,67 @@ if __name__ == "__main__":
 
     bench.report.show()
 
-    exit()
+    sys.exit()
 
     # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
 
-    SweepTuring.param.Du.bounds = [0.13, 0.19]
-    SweepTuring.param.Dv.bounds = [0.08, 0.09]
-    run_cfg.level = 4
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
+    # SweepTuring.param.Du.bounds = [0.13, 0.19]
+    # SweepTuring.param.Dv.bounds = [0.08, 0.09]
+    # run_cfg.level = 4
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
 
-    run_cfg.level = 4
-
-    SweepTuring.param.Du.default = 0.176
-    SweepTuring.param.Dv.default = 0.0825
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
+    # run_cfg.level = 4
 
     # SweepTuring.param.Du.default = 0.176
     # SweepTuring.param.Dv.default = 0.0825
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
 
-    # bench.plot_sweep("turing",)
+    # # SweepTuring.param.Du.default = 0.176
+    # # SweepTuring.param.Dv.default = 0.0825
 
-    SweepTuring.param.feed.default = 0.03
-    SweepTuring.param.kill.default = 0.064
+    # # bench.plot_sweep("turing",)
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
-    SweepTuring.param.Du.bounds = None
-    SweepTuring.param.Dv.bounds = None
-    SweepTuring.param.feed.bounds = None
-    SweepTuring.param.kill.bounds = None
+    # SweepTuring.param.feed.default = 0.03
+    # SweepTuring.param.kill.default = 0.064
 
-    def box(name, center, width):
-        var = bch.FloatSweep(default=center, bounds=(center - width, center + width))
-        var.name = name
-        return var
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.Du,SweepTuring.param.Dv])
+    # SweepTuring.param.Du.bounds = None
+    # SweepTuring.param.Dv.bounds = None
+    # SweepTuring.param.feed.bounds = None
+    # SweepTuring.param.kill.bounds = None
 
-    wid = 0.001
+    # def box(name, center, width):
+    #     var = bch.FloatSweep(default=center, bounds=(center - width, center + width))
+    #     var.name = name
+    #     return var
 
-    run_cfg.level = 2
+    # wid = 0.001
 
-    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.064,wid)])
+    # run_cfg.level = 2
 
-    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.06,0.001)])
+    # # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.064,wid)])
 
-    # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.00725,0.001),box("feed",0.03,wid),box("kill",0.06,0.001)])
+    # # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.0825,wid),box("feed",0.03,wid),box("kill",0.06,0.001)])
 
-    wid = 0.001
-    run_cfg.level = 3
+    # # bench.plot_sweep("turing",input_vars=[box("Du",0.176,wid),box("Dv",0.00725,0.001),box("feed",0.03,wid),box("kill",0.06,0.001)])
 
-    bench.plot_sweep(
-        "turing",
-        input_vars=[box("Du", 0.176, wid), box("Dv", 0.00725, 0.001), box("feed", 0.03, wid)],
-    )
+    # wid = 0.001
+    # run_cfg.level = 3
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
+    # bench.plot_sweep(
+    #     "turing",
+    #     input_vars=[box("Du", 0.176, wid), box("Dv", 0.00725, 0.001), box("feed", 0.03, wid)],
+    # )
 
-    # SweepTuring.param.Dv.default = 0.0825
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.Dv])
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
+    # # SweepTuring.param.Dv.default = 0.0825
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.col])
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.feed,SweepTuring.param.kill])
 
-    # bench.plot_sweep("turing",input_vars=[SweepTuring.param.bitrate])
-    # bench.report.save_index()
-    bench.report.show()
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.col])
+
+    # # bench.plot_sweep("turing",input_vars=[SweepTuring.param.bitrate])
+    # # bench.report.save_index()
+    # bench.report.show()

@@ -8,7 +8,6 @@ vol = Volume(dataurl + "embryo.tif")
 vaxes = Axes(vol, xygrid=False)
 
 slab = vol.slab([45, 55], axis="z", operation="mean")
-vol.sl
 slab.cmap("Set1_r", vmin=10, vmax=80).add_scalarbar("intensity")
 # histogram(slab).show().close()  # quickly inspect it
 

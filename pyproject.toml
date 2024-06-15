@@ -1,6 +1,6 @@
 [project]
 name = "taichi_sweep"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A package for taichi parameter sweeps"
 readme = "README.md"

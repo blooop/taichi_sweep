@@ -32,7 +32,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/7d/7f8df0fdbbbefc4362d3eca6b69b7a8a4249a8a88dabc00a207d31fddcd7/black-24.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1a/02/b312d65b83d0ec17d73e1594118e1163a4d79546925424374922fab2ea09/bokeh-3.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/da/f1/3702ba2a7470666a62fd81c58a4c40be00670e5006a67f4d626e57f013ae/charset_normalizer-3.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
@@ -49,8 +49,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d5/40/869da2eedeffab3d261022f9b679ea3a6dd867d3b424beff5df451cd0c90/holoviews-1.19.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f7/3e/d5b3a524ef2eb68cf89dcae620b1a2d205cceaaeac74dda7d7445578c0d1/hvplot-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/13/10/1040d11375da7347c404b9d54e386f5f4be47c8c449e37957ee12fdd37d0/hypothesis-6.103.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a3/b6/39c7dad203d9984225f47e0aa39ac3ba3a47c77a02d0ef2a7be691855a06/imageio-2.34.1-py3-none-any.whl
@@ -65,22 +65,22 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7c/52/2b1b570f6b8b803cef5ac28fdf78c0da318916c7d2fe9402a84d591b394c/MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/19/e5/a4ea514515f270224435c69359abb7a3d152ed31b9ee3ba5e63017461945/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/a7/68/16e7b9154fae61fb29f0f3450b39b855b89e6d2c598d67302e70f96883af/matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/27/1a/1f68f9ba0c207934b35b86a8ca3aad8395a3d6dd7921c0686e23853ff5a9/mccabe-0.7.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ef/f7/8a4dcea720a581e69ac8c5a38524baf0e3e2bb5f3819a9ff661464fe7d10/mdit_py_plugins-0.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/54/01a8c4e35c75ca9724d19a7e4de9dc23f0ceb8769102c7de056113af61c3/moviepy-1.0.3.tar.gz
       - pypi: https://files.pythonhosted.org/packages/2a/e2/5d3f6ada4297caebe1a2add3b126fe800c96f56dbe5d1988a2cbe0b267aa/mypy_extensions-1.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/64/41/284783f1014685201e447ea976e85fed0e351f5debbaf3ee6d7645521f1d/numpy-1.26.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/4c/6a/219a431aaf81b3eb3070fd2d58116baa366d3072f43bbcc87dc3495b7546/optuna-3.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/15/da/68883911855d8b4d521f9a370e4e6aab8232b91c1d8d5a8348c4680c6642/optuna-3.6.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/b1/67/aca1f6e215d957d24d0a290321f368503305480268f9617bf625243e9dea/pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/e1/56/61a0128713190a00495d3ff754042ce43f5c3e13a4a9ec1af3f7265c2f3d/panel-1.3.6-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/2c/7c/bbb850b1368f4a2d51bccaf7d6c9acc2f1d7c5ee97f7f7cca1c62b1bf23b/param-2.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/1b/12521efcbc6058e2673583bb096c2b5046a9df39bd73eca392c1efed24e5/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/57/02/71ff7c22c583deead1ad0461476cf4a7ecbbaf032672529f41bc0622c878/panel-1.4.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/25/7e/8bc23416cf4cd6ded2eaf78e09f90c97975987f705d23075b4d3bfbc065a/param-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/d7/0d3021e6c2da8f2a5d6f7e97ebf0bf540e69ebe3d0384c207401bfe88ef5/pillow-10.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/68/13/2aa1f0e1364feb2c9ef45302f387ac0bd81484e9c9a4c5688a322fbdfd08/platformdirs-4.2.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/a8/07/72953cf70e3bd3a24cbc3e743e6f8539abe6e3e6d83c3c0c83426eaffd39/plotly-5.18.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0b/f8/b65cdd2be32e442c4efe7b672f73c90b05eab5a7f3f4115efe181d432c60/plotly-5.22.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/87/77cc11c7a9ea9fd05503def69e3d18605852cd0d4b0d3b8f15bbeb3ef1d1/pooch-1.8.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl
@@ -98,7 +98,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/87/67/a37f6214d0e9fe57f6ae54b2956d550ca8365857f42a1ce0392bb21d9410/rich-13.7.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/21/77/9d9c536d8544d8b1b2fe1fcd5e3e190b946d91dc00a8956aa5fe88cb264b/ruff-0.4.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/d0/0b/26ad95cf0b747be967b15fb71a06f5ac67aba0fd2f9cd174de6edefc4674/scikit_learn-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/1e/7d/1a2ea8eb5b4df373c30c7418cf26305a4a05e2a0e56c80a8043b791595f3/scikit_learn-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/a3/ba/7255e5dc82a65adbe83771c72f384d99c43063648456796436c9a5585ec3/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/2f/4b/ea1c1c4ecaa97baf8001568d502eaff1bbc3d5c1b48cce3f3fd5a77b8f52/scooby-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/76/55d6cb5b4a4e221d0f4054420258045dea917f20f051d469a5b344535970/scoop-0.7.2.0.tar.gz
@@ -122,7 +122,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/99/cf/4fd2bd5976ef7436e998671e3e80f387a9429d998b52b946debebdb4a7fb/vedo-2024.5.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c4/66/23118087ce6bb1914ce367638b6113d827f2257b76ca506a06e288c0e13b/vtk-9.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/54/a3/289d1b5703412247551fc9f2057e8726567bdd278d25c37ad834f78c851e/xarray-2023.12.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ce/78/7a78d5197e409371c4fd9734ad9ab41ed6f9147b3ac23256c4e6c81295f2/xarray-2024.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5f/51/c106f095c33de0b833d3823fbab3383248476b3a9fd4dcd59ba01d950361/xyzservices-2024.6.0-py3-none-any.whl
       - pypi: .
   devenv:
@@ -154,7 +154,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xz-5.2.6-h166bdaf_0.tar.bz2
       - pypi: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1a/02/b312d65b83d0ec17d73e1594118e1163a4d79546925424374922fab2ea09/bokeh-3.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/da/f1/3702ba2a7470666a62fd81c58a4c40be00670e5006a67f4d626e57f013ae/charset_normalizer-3.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl
@@ -171,8 +171,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d5/40/869da2eedeffab3d261022f9b679ea3a6dd867d3b424beff5df451cd0c90/holoviews-1.19.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f7/3e/d5b3a524ef2eb68cf89dcae620b1a2d205cceaaeac74dda7d7445578c0d1/hvplot-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a3/b6/39c7dad203d9984225f47e0aa39ac3ba3a47c77a02d0ef2a7be691855a06/imageio-2.34.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fe/44/c9e18a73dfd939b5b0ec843870ac72f1f6c17e31a03149b687a85465bff7/imageio_ffmpeg-0.5.1-py3-none-manylinux2010_x86_64.whl
@@ -184,21 +184,21 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7c/52/2b1b570f6b8b803cef5ac28fdf78c0da318916c7d2fe9402a84d591b394c/MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/19/e5/a4ea514515f270224435c69359abb7a3d152ed31b9ee3ba5e63017461945/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/a7/68/16e7b9154fae61fb29f0f3450b39b855b89e6d2c598d67302e70f96883af/matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ef/f7/8a4dcea720a581e69ac8c5a38524baf0e3e2bb5f3819a9ff661464fe7d10/mdit_py_plugins-0.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/54/01a8c4e35c75ca9724d19a7e4de9dc23f0ceb8769102c7de056113af61c3/moviepy-1.0.3.tar.gz
       - pypi: https://files.pythonhosted.org/packages/64/41/284783f1014685201e447ea976e85fed0e351f5debbaf3ee6d7645521f1d/numpy-1.26.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/d6/5a/d984ea60fe2bb01abee5cd353a2dd63106c53f27d7dc3ad9f2c1a8cbbc98/off_your_rocker-0.1.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4c/6a/219a431aaf81b3eb3070fd2d58116baa366d3072f43bbcc87dc3495b7546/optuna-3.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/15/da/68883911855d8b4d521f9a370e4e6aab8232b91c1d8d5a8348c4680c6642/optuna-3.6.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/b1/67/aca1f6e215d957d24d0a290321f368503305480268f9617bf625243e9dea/pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/e1/56/61a0128713190a00495d3ff754042ce43f5c3e13a4a9ec1af3f7265c2f3d/panel-1.3.6-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/2c/7c/bbb850b1368f4a2d51bccaf7d6c9acc2f1d7c5ee97f7f7cca1c62b1bf23b/param-2.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/1b/12521efcbc6058e2673583bb096c2b5046a9df39bd73eca392c1efed24e5/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/57/02/71ff7c22c583deead1ad0461476cf4a7ecbbaf032672529f41bc0622c878/panel-1.4.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/25/7e/8bc23416cf4cd6ded2eaf78e09f90c97975987f705d23075b4d3bfbc065a/param-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/d7/0d3021e6c2da8f2a5d6f7e97ebf0bf540e69ebe3d0384c207401bfe88ef5/pillow-10.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/68/13/2aa1f0e1364feb2c9ef45302f387ac0bd81484e9c9a4c5688a322fbdfd08/platformdirs-4.2.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/a8/07/72953cf70e3bd3a24cbc3e743e6f8539abe6e3e6d83c3c0c83426eaffd39/plotly-5.18.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0b/f8/b65cdd2be32e442c4efe7b672f73c90b05eab5a7f3f4115efe181d432c60/plotly-5.22.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/87/77cc11c7a9ea9fd05503def69e3d18605852cd0d4b0d3b8f15bbeb3ef1d1/pooch-1.8.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl
@@ -213,7 +213,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/87/67/a37f6214d0e9fe57f6ae54b2956d550ca8365857f42a1ce0392bb21d9410/rich-13.7.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/58/de/793f52c3a91a39f7d40a10818aaaecf052ebdd73ef64455a8c79362931b0/rocker-0.2.16-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/d0/0b/26ad95cf0b747be967b15fb71a06f5ac67aba0fd2f9cd174de6edefc4674/scikit_learn-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/1e/7d/1a2ea8eb5b4df373c30c7418cf26305a4a05e2a0e56c80a8043b791595f3/scikit_learn-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/a3/ba/7255e5dc82a65adbe83771c72f384d99c43063648456796436c9a5585ec3/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/2f/4b/ea1c1c4ecaa97baf8001568d502eaff1bbc3d5c1b48cce3f3fd5a77b8f52/scooby-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/76/55d6cb5b4a4e221d0f4054420258045dea917f20f051d469a5b344535970/scoop-0.7.2.0.tar.gz
@@ -236,7 +236,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/99/cf/4fd2bd5976ef7436e998671e3e80f387a9429d998b52b946debebdb4a7fb/vedo-2024.5.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c4/66/23118087ce6bb1914ce367638b6113d827f2257b76ca506a06e288c0e13b/vtk-9.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/54/a3/289d1b5703412247551fc9f2057e8726567bdd278d25c37ad834f78c851e/xarray-2023.12.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ce/78/7a78d5197e409371c4fd9734ad9ab41ed6f9147b3ac23256c4e6c81295f2/xarray-2024.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5f/51/c106f095c33de0b833d3823fbab3383248476b3a9fd4dcd59ba01d950361/xyzservices-2024.6.0-py3-none-any.whl
       - pypi: .
   py310:
@@ -271,7 +271,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/7d/7f8df0fdbbbefc4362d3eca6b69b7a8a4249a8a88dabc00a207d31fddcd7/black-24.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/1a/02/b312d65b83d0ec17d73e1594118e1163a4d79546925424374922fab2ea09/bokeh-3.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/da/f1/3702ba2a7470666a62fd81c58a4c40be00670e5006a67f4d626e57f013ae/charset_normalizer-3.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl
@@ -288,8 +288,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/d5/40/869da2eedeffab3d261022f9b679ea3a6dd867d3b424beff5df451cd0c90/holoviews-1.19.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/f7/3e/d5b3a524ef2eb68cf89dcae620b1a2d205cceaaeac74dda7d7445578c0d1/hvplot-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/13/10/1040d11375da7347c404b9d54e386f5f4be47c8c449e37957ee12fdd37d0/hypothesis-6.103.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a3/b6/39c7dad203d9984225f47e0aa39ac3ba3a47c77a02d0ef2a7be691855a06/imageio-2.34.1-py3-none-any.whl
@@ -304,22 +304,22 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7c/52/2b1b570f6b8b803cef5ac28fdf78c0da318916c7d2fe9402a84d591b394c/MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/19/e5/a4ea514515f270224435c69359abb7a3d152ed31b9ee3ba5e63017461945/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/a7/68/16e7b9154fae61fb29f0f3450b39b855b89e6d2c598d67302e70f96883af/matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/27/1a/1f68f9ba0c207934b35b86a8ca3aad8395a3d6dd7921c0686e23853ff5a9/mccabe-0.7.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ef/f7/8a4dcea720a581e69ac8c5a38524baf0e3e2bb5f3819a9ff661464fe7d10/mdit_py_plugins-0.4.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/54/01a8c4e35c75ca9724d19a7e4de9dc23f0ceb8769102c7de056113af61c3/moviepy-1.0.3.tar.gz
       - pypi: https://files.pythonhosted.org/packages/2a/e2/5d3f6ada4297caebe1a2add3b126fe800c96f56dbe5d1988a2cbe0b267aa/mypy_extensions-1.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/64/41/284783f1014685201e447ea976e85fed0e351f5debbaf3ee6d7645521f1d/numpy-1.26.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/4c/6a/219a431aaf81b3eb3070fd2d58116baa366d3072f43bbcc87dc3495b7546/optuna-3.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/15/da/68883911855d8b4d521f9a370e4e6aab8232b91c1d8d5a8348c4680c6642/optuna-3.6.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/b1/67/aca1f6e215d957d24d0a290321f368503305480268f9617bf625243e9dea/pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/e1/56/61a0128713190a00495d3ff754042ce43f5c3e13a4a9ec1af3f7265c2f3d/panel-1.3.6-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/2c/7c/bbb850b1368f4a2d51bccaf7d6c9acc2f1d7c5ee97f7f7cca1c62b1bf23b/param-2.0.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/1b/12521efcbc6058e2673583bb096c2b5046a9df39bd73eca392c1efed24e5/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/57/02/71ff7c22c583deead1ad0461476cf4a7ecbbaf032672529f41bc0622c878/panel-1.4.4-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/25/7e/8bc23416cf4cd6ded2eaf78e09f90c97975987f705d23075b4d3bfbc065a/param-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/d7/0d3021e6c2da8f2a5d6f7e97ebf0bf540e69ebe3d0384c207401bfe88ef5/pillow-10.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/68/13/2aa1f0e1364feb2c9ef45302f387ac0bd81484e9c9a4c5688a322fbdfd08/platformdirs-4.2.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/a8/07/72953cf70e3bd3a24cbc3e743e6f8539abe6e3e6d83c3c0c83426eaffd39/plotly-5.18.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0b/f8/b65cdd2be32e442c4efe7b672f73c90b05eab5a7f3f4115efe181d432c60/plotly-5.22.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/87/77cc11c7a9ea9fd05503def69e3d18605852cd0d4b0d3b8f15bbeb3ef1d1/pooch-1.8.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl
@@ -337,7 +337,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/87/67/a37f6214d0e9fe57f6ae54b2956d550ca8365857f42a1ce0392bb21d9410/rich-13.7.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/21/77/9d9c536d8544d8b1b2fe1fcd5e3e190b946d91dc00a8956aa5fe88cb264b/ruff-0.4.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/d0/0b/26ad95cf0b747be967b15fb71a06f5ac67aba0fd2f9cd174de6edefc4674/scikit_learn-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/1e/7d/1a2ea8eb5b4df373c30c7418cf26305a4a05e2a0e56c80a8043b791595f3/scikit_learn-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/a3/ba/7255e5dc82a65adbe83771c72f384d99c43063648456796436c9a5585ec3/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/2f/4b/ea1c1c4ecaa97baf8001568d502eaff1bbc3d5c1b48cce3f3fd5a77b8f52/scooby-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/76/55d6cb5b4a4e221d0f4054420258045dea917f20f051d469a5b344535970/scoop-0.7.2.0.tar.gz
@@ -361,7 +361,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/99/cf/4fd2bd5976ef7436e998671e3e80f387a9429d998b52b946debebdb4a7fb/vedo-2024.5.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/c4/66/23118087ce6bb1914ce367638b6113d827f2257b76ca506a06e288c0e13b/vtk-9.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/54/a3/289d1b5703412247551fc9f2057e8726567bdd278d25c37ad834f78c851e/xarray-2023.12.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ce/78/7a78d5197e409371c4fd9734ad9ab41ed6f9147b3ac23256c4e6c81295f2/xarray-2024.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5f/51/c106f095c33de0b833d3823fbab3383248476b3a9fd4dcd59ba01d950361/xyzservices-2024.6.0-py3-none-any.whl
       - pypi: .
 packages:
@@ -478,18 +478,18 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: bokeh
-  version: 3.3.4
-  url: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
-  sha256: ad7b6f89d0a7c2be01eff1db0ca24e2755ac41de14539db919a62e791809c309
+  version: 3.4.1
+  url: https://files.pythonhosted.org/packages/1a/02/b312d65b83d0ec17d73e1594118e1163a4d79546925424374922fab2ea09/bokeh-3.4.1-py3-none-any.whl
+  sha256: 1e3c502a0a8205338fc74dadbfa321f8a0965441b39501e36796a47b4017b642
   requires_dist:
   - jinja2>=2.9
-  - contourpy>=1
+  - contourpy>=1.2
   - numpy>=1.16
   - packaging>=16.8
   - pandas>=1.2
   - pillow>=7.1.0
   - pyyaml>=3.10
-  - tornado>=5.1
+  - tornado>=6.2
   - xyzservices>=2021.9.1
   requires_python: '>=3.9'
 - kind: conda
@@ -784,419 +784,105 @@ packages:
   - coverage<=7.5.3,>=7.2.7 ; extra == 'test'
 - kind: pypi
   name: holoviews
-  version: 1.18.1
-  url: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
-  sha256: b1bf6cd9aa72a2e103e8a7e0e57c8c8171a3fc3ebd5b943fe49bf98b6c64367b
+  version: 1.19.0
+  url: https://files.pythonhosted.org/packages/d5/40/869da2eedeffab3d261022f9b679ea3a6dd867d3b424beff5df451cd0c90/holoviews-1.19.0-py3-none-any.whl
+  sha256: a74b26dc3285b4f8b801e23f0e23b4ac93ab4ec162ea76c69ae585fff627a21b
   requires_dist:
-  - param<3.0,>=1.12.0
-  - numpy>=1.0
-  - pyviz-comms>=0.7.4
-  - panel>=1.0
+  - bokeh>=3.1
   - colorcet
+  - numpy>=1.21
   - packaging
-  - pandas>=0.20.0
-  - bokeh>=3.1 ; extra == 'all'
-  - cftime ; extra == 'all'
-  - codecov ; extra == 'all'
-  - contourpy ; extra == 'all'
-  - cudf ; extra == 'all'
-  - dash>=1.16 ; extra == 'all'
-  - dask ; extra == 'all'
-  - datashader>=0.11.1 ; extra == 'all'
-  - ffmpeg ; extra == 'all'
-  - flaky ; extra == 'all'
-  - graphviz ; extra == 'all'
-  - ibis-framework ; extra == 'all'
-  - ipython>=5.4.0 ; extra == 'all'
-  - matplotlib>=3 ; extra == 'all'
-  - nbconvert ; extra == 'all'
-  - nbsite<0.9.0,>=0.8.2 ; extra == 'all'
-  - nbval ; extra == 'all'
-  - netcdf4 ; extra == 'all'
-  - networkx ; extra == 'all'
-  - notebook ; extra == 'all'
-  - pillow ; extra == 'all'
-  - playwright ; extra == 'all'
-  - plotly>=4.0 ; extra == 'all'
-  - pooch ; extra == 'all'
-  - pre-commit ; extra == 'all'
-  - pyarrow ; extra == 'all'
-  - pytest ; extra == 'all'
-  - pytest-cov ; extra == 'all'
-  - pytest-github-actions-annotate-failures ; extra == 'all'
-  - pytest-playwright ; extra == 'all'
-  - pytest-xdist ; extra == 'all'
-  - ruff ; extra == 'all'
-  - scikit-image ; extra == 'all'
-  - scipy ; extra == 'all'
-  - selenium ; extra == 'all'
-  - shapely ; extra == 'all'
-  - spatialpandas ; extra == 'all'
-  - streamz>=0.5.0 ; extra == 'all'
-  - xarray>=0.10.4 ; extra == 'all'
-  - param>=1.7.0 ; extra == 'build'
-  - setuptools>=30.3.0 ; extra == 'build'
-  - pyct>=0.4.4 ; extra == 'build'
-  - ipython>=5.4.0 ; extra == 'doc'
-  - notebook ; extra == 'doc'
-  - matplotlib>=3 ; extra == 'doc'
-  - bokeh>=3.1 ; extra == 'doc'
-  - networkx ; extra == 'doc'
-  - pillow ; extra == 'doc'
-  - xarray>=0.10.4 ; extra == 'doc'
-  - plotly>=4.0 ; extra == 'doc'
-  - dash>=1.16 ; extra == 'doc'
-  - streamz>=0.5.0 ; extra == 'doc'
-  - ffmpeg ; extra == 'doc'
-  - cftime ; extra == 'doc'
-  - netcdf4 ; extra == 'doc'
-  - dask ; extra == 'doc'
-  - scipy ; extra == 'doc'
-  - shapely ; extra == 'doc'
-  - scikit-image ; extra == 'doc'
-  - pyarrow ; extra == 'doc'
-  - pooch ; extra == 'doc'
-  - datashader>=0.11.1 ; extra == 'doc'
-  - nbsite<0.9.0,>=0.8.2 ; extra == 'doc'
-  - graphviz ; extra == 'doc'
-  - selenium ; extra == 'doc'
-  - ipython>=5.4.0 ; extra == 'examples'
-  - notebook ; extra == 'examples'
-  - matplotlib>=3 ; extra == 'examples'
-  - bokeh>=3.1 ; extra == 'examples'
-  - networkx ; extra == 'examples'
-  - pillow ; extra == 'examples'
-  - xarray>=0.10.4 ; extra == 'examples'
-  - plotly>=4.0 ; extra == 'examples'
-  - dash>=1.16 ; extra == 'examples'
-  - streamz>=0.5.0 ; extra == 'examples'
-  - ffmpeg ; extra == 'examples'
-  - cftime ; extra == 'examples'
-  - netcdf4 ; extra == 'examples'
-  - dask ; extra == 'examples'
-  - scipy ; extra == 'examples'
-  - shapely ; extra == 'examples'
-  - scikit-image ; extra == 'examples'
-  - pyarrow ; extra == 'examples'
-  - pooch ; extra == 'examples'
-  - datashader>=0.11.1 ; extra == 'examples'
-  - ipython>=5.4.0 ; extra == 'examples-tests'
-  - notebook ; extra == 'examples-tests'
-  - matplotlib>=3 ; extra == 'examples-tests'
-  - bokeh>=3.1 ; extra == 'examples-tests'
-  - networkx ; extra == 'examples-tests'
-  - pillow ; extra == 'examples-tests'
-  - xarray>=0.10.4 ; extra == 'examples-tests'
-  - plotly>=4.0 ; extra == 'examples-tests'
-  - dash>=1.16 ; extra == 'examples-tests'
-  - streamz>=0.5.0 ; extra == 'examples-tests'
-  - ffmpeg ; extra == 'examples-tests'
-  - cftime ; extra == 'examples-tests'
-  - netcdf4 ; extra == 'examples-tests'
-  - dask ; extra == 'examples-tests'
-  - scipy ; extra == 'examples-tests'
-  - shapely ; extra == 'examples-tests'
-  - scikit-image ; extra == 'examples-tests'
-  - pyarrow ; extra == 'examples-tests'
-  - pooch ; extra == 'examples-tests'
-  - datashader>=0.11.1 ; extra == 'examples-tests'
-  - nbval ; extra == 'examples-tests'
-  - ruff ; extra == 'lint'
-  - pre-commit ; extra == 'lint'
-  - ipython>=5.4.0 ; extra == 'notebook'
-  - notebook ; extra == 'notebook'
-  - ipython>=5.4.0 ; extra == 'recommended'
-  - notebook ; extra == 'recommended'
+  - pandas>=1.3
+  - panel>=1.0
+  - param<3.0,>=2.0
+  - pyviz-comms>=2.1
   - matplotlib>=3 ; extra == 'recommended'
-  - bokeh>=3.1 ; extra == 'recommended'
+  - plotly>=4.0 ; extra == 'recommended'
   - pytest ; extra == 'tests'
-  - pytest-cov ; extra == 'tests'
-  - pytest-xdist ; extra == 'tests'
-  - flaky ; extra == 'tests'
-  - matplotlib>=3 ; extra == 'tests'
-  - nbconvert ; extra == 'tests'
-  - bokeh>=3.1 ; extra == 'tests'
-  - pillow ; extra == 'tests'
-  - plotly>=4.0 ; extra == 'tests'
-  - ipython>=5.4.0 ; extra == 'tests'
-  - contourpy ; extra == 'tests'
-  - dask ; extra == 'tests'
-  - ibis-framework ; extra == 'tests'
-  - xarray>=0.10.4 ; extra == 'tests'
-  - networkx ; extra == 'tests'
-  - shapely ; extra == 'tests'
-  - ffmpeg ; extra == 'tests'
-  - cftime ; extra == 'tests'
-  - scipy ; extra == 'tests'
-  - selenium ; extra == 'tests'
-  - spatialpandas ; extra == 'tests'
-  - datashader>=0.11.1 ; extra == 'tests'
-  - dash>=1.16 ; extra == 'tests'
-  - codecov ; extra == 'tests-ci'
-  - pytest-github-actions-annotate-failures ; extra == 'tests-ci'
-  - pytest ; extra == 'tests-core'
-  - pytest-cov ; extra == 'tests-core'
-  - pytest-xdist ; extra == 'tests-core'
-  - flaky ; extra == 'tests-core'
-  - matplotlib>=3 ; extra == 'tests-core'
-  - nbconvert ; extra == 'tests-core'
-  - bokeh>=3.1 ; extra == 'tests-core'
-  - pillow ; extra == 'tests-core'
-  - plotly>=4.0 ; extra == 'tests-core'
-  - ipython>=5.4.0 ; extra == 'tests-core'
-  - contourpy ; extra == 'tests-core'
-  - pytest ; extra == 'tests-gpu'
-  - pytest-cov ; extra == 'tests-gpu'
-  - pytest-xdist ; extra == 'tests-gpu'
-  - flaky ; extra == 'tests-gpu'
-  - matplotlib>=3 ; extra == 'tests-gpu'
-  - nbconvert ; extra == 'tests-gpu'
-  - bokeh>=3.1 ; extra == 'tests-gpu'
-  - pillow ; extra == 'tests-gpu'
-  - plotly>=4.0 ; extra == 'tests-gpu'
-  - ipython>=5.4.0 ; extra == 'tests-gpu'
-  - contourpy ; extra == 'tests-gpu'
-  - dask ; extra == 'tests-gpu'
-  - ibis-framework ; extra == 'tests-gpu'
-  - xarray>=0.10.4 ; extra == 'tests-gpu'
-  - networkx ; extra == 'tests-gpu'
-  - shapely ; extra == 'tests-gpu'
-  - ffmpeg ; extra == 'tests-gpu'
-  - cftime ; extra == 'tests-gpu'
-  - scipy ; extra == 'tests-gpu'
-  - selenium ; extra == 'tests-gpu'
-  - spatialpandas ; extra == 'tests-gpu'
-  - datashader>=0.11.1 ; extra == 'tests-gpu'
-  - dash>=1.16 ; extra == 'tests-gpu'
-  - cudf ; extra == 'tests-gpu'
-  - nbval ; extra == 'tests-nb'
-  - playwright ; extra == 'ui'
-  - pytest-playwright ; extra == 'ui'
-  - ipython>=5.4.0 ; extra == 'unit-tests'
-  - notebook ; extra == 'unit-tests'
-  - matplotlib>=3 ; extra == 'unit-tests'
-  - bokeh>=3.1 ; extra == 'unit-tests'
-  - networkx ; extra == 'unit-tests'
-  - pillow ; extra == 'unit-tests'
-  - xarray>=0.10.4 ; extra == 'unit-tests'
-  - plotly>=4.0 ; extra == 'unit-tests'
-  - dash>=1.16 ; extra == 'unit-tests'
-  - streamz>=0.5.0 ; extra == 'unit-tests'
-  - ffmpeg ; extra == 'unit-tests'
-  - cftime ; extra == 'unit-tests'
-  - netcdf4 ; extra == 'unit-tests'
-  - dask ; extra == 'unit-tests'
-  - scipy ; extra == 'unit-tests'
-  - shapely ; extra == 'unit-tests'
-  - scikit-image ; extra == 'unit-tests'
-  - pyarrow ; extra == 'unit-tests'
-  - pooch ; extra == 'unit-tests'
-  - datashader>=0.11.1 ; extra == 'unit-tests'
-  - pytest ; extra == 'unit-tests'
-  - pytest-cov ; extra == 'unit-tests'
-  - pytest-xdist ; extra == 'unit-tests'
-  - flaky ; extra == 'unit-tests'
-  - nbconvert ; extra == 'unit-tests'
-  - contourpy ; extra == 'unit-tests'
-  - ibis-framework ; extra == 'unit-tests'
-  - selenium ; extra == 'unit-tests'
-  - spatialpandas ; extra == 'unit-tests'
-  - ruff ; extra == 'unit-tests'
-  - pre-commit ; extra == 'unit-tests'
+  - pytest-rerunfailures ; extra == 'tests'
   requires_python: '>=3.9'
 - kind: pypi
   name: hvplot
-  version: 0.9.1
-  url: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
-  sha256: 7e9ba3bbd6a43e37cc9b7218850b1d91b96fe83dc3a7736fd531dbb296d60eaa
+  version: 0.10.0
+  url: https://files.pythonhosted.org/packages/f7/3e/d5b3a524ef2eb68cf89dcae620b1a2d205cceaaeac74dda7d7445578c0d1/hvplot-0.10.0-py3-none-any.whl
+  sha256: fe90ccb48163a6a62ae5bd6b008c2cb15cbf5b276f6ad6839ef5470b1c480d16
   requires_dist:
   - bokeh>=1.0.0
   - colorcet>=2
   - holoviews>=1.11.0
-  - pandas
   - numpy>=1.15
   - packaging
+  - pandas
   - panel>=0.11.0
   - param<3.0,>=1.12.0
-  - cartopy ; extra == 'all'
-  - codecov ; extra == 'all'
-  - dask ; extra == 'all'
-  - dask>=2021.3.0 ; extra == 'all'
-  - datashader>=0.6.5 ; extra == 'all'
-  - fiona ; extra == 'all'
-  - flake8 ; extra == 'all'
-  - fugue ; extra == 'all'
-  - geopandas ; extra == 'all'
-  - geoviews>=1.9.0 ; extra == 'all'
-  - ibis-framework ; extra == 'all'
-  - intake>=0.6.5 ; extra == 'all'
-  - intake-parquet>=0.2.3 ; extra == 'all'
-  - intake-xarray>=0.5.0 ; extra == 'all'
-  - ipywidgets ; extra == 'all'
-  - matplotlib ; extra == 'all'
-  - nbsite>=0.8.4 ; extra == 'all'
-  - nbval ; extra == 'all'
-  - networkx>=2.6.3 ; extra == 'all'
-  - notebook>=5.4 ; extra == 'all'
-  - numba>=0.51.0 ; extra == 'all'
-  - param>=1.7.0 ; extra == 'all'
-  - parameterized ; extra == 'all'
-  - pillow>=8.2.0 ; extra == 'all'
-  - plotly ; extra == 'all'
-  - polars ; extra == 'all'
-  - pooch ; extra == 'all'
-  - pooch>=1.6.0 ; extra == 'all'
-  - pre-commit ; extra == 'all'
-  - pyct>=0.4.4 ; extra == 'all'
-  - pygraphviz ; extra == 'all'
-  - pyproj ; extra == 'all'
-  - pytest ; extra == 'all'
-  - pytest-cov ; extra == 'all'
-  - pytest-xdist ; extra == 'all'
-  - python-snappy>=0.6.0 ; extra == 'all'
-  - rasterio ; extra == 'all'
-  - rioxarray ; extra == 'all'
-  - s3fs>=2022.1.0 ; extra == 'all'
-  - scikit-image>=0.17.2 ; extra == 'all'
-  - scipy ; extra == 'all'
-  - scipy>=1.5.3 ; extra == 'all'
-  - selenium>=3.141.0 ; extra == 'all'
-  - setuptools>=30.3.0 ; extra == 'all'
-  - spatialpandas>=0.4.3 ; extra == 'all'
-  - streamz>=0.3.0 ; extra == 'all'
-  - xarray ; extra == 'all'
-  - xarray>=0.18.2 ; extra == 'all'
-  - param>=1.7.0 ; extra == 'build'
-  - pyct>=0.4.4 ; extra == 'build'
-  - setuptools>=30.3.0 ; extra == 'build'
-  - geoviews>=1.9.0 ; extra == 'doc'
-  - geopandas ; extra == 'doc'
-  - xarray>=0.18.2 ; extra == 'doc'
-  - networkx>=2.6.3 ; extra == 'doc'
-  - streamz>=0.3.0 ; extra == 'doc'
-  - intake>=0.6.5 ; extra == 'doc'
-  - intake-parquet>=0.2.3 ; extra == 'doc'
-  - intake-xarray>=0.5.0 ; extra == 'doc'
-  - dask>=2021.3.0 ; extra == 'doc'
-  - notebook>=5.4 ; extra == 'doc'
-  - rasterio ; extra == 'doc'
-  - cartopy ; extra == 'doc'
-  - pyproj ; extra == 'doc'
-  - s3fs>=2022.1.0 ; extra == 'doc'
-  - scipy>=1.5.3 ; extra == 'doc'
-  - pillow>=8.2.0 ; extra == 'doc'
-  - selenium>=3.141.0 ; extra == 'doc'
-  - scikit-image>=0.17.2 ; extra == 'doc'
-  - python-snappy>=0.6.0 ; extra == 'doc'
-  - pooch>=1.6.0 ; extra == 'doc'
-  - fiona ; extra == 'doc'
-  - rioxarray ; extra == 'doc'
-  - matplotlib ; extra == 'doc'
-  - plotly ; extra == 'doc'
-  - pygraphviz ; extra == 'doc'
-  - ipywidgets ; extra == 'doc'
-  - numba>=0.51.0 ; extra == 'doc'
-  - datashader>=0.6.5 ; extra == 'doc'
-  - spatialpandas>=0.4.3 ; extra == 'doc'
-  - polars ; extra == 'doc'
-  - fugue ; extra == 'doc'
-  - ibis-framework ; extra == 'doc'
+  - setuptools-scm>=6 ; extra == 'dev-extras'
+  - hvplot[examples] ; extra == 'doc'
   - nbsite>=0.8.4 ; extra == 'doc'
-  - geoviews>=1.9.0 ; extra == 'examples'
-  - geopandas ; extra == 'examples'
-  - xarray>=0.18.2 ; extra == 'examples'
-  - networkx>=2.6.3 ; extra == 'examples'
-  - streamz>=0.3.0 ; extra == 'examples'
-  - intake>=0.6.5 ; extra == 'examples'
+  - sphinxext-rediraffe ; extra == 'doc'
+  - dask[dataframe]>=2021.3.0 ; extra == 'examples'
+  - datashader>=0.6.5 ; extra == 'examples'
+  - fugue[sql] ; extra == 'examples'
+  - hvplot[fugue-sql] ; extra == 'examples'
+  - ibis-framework[duckdb] ; extra == 'examples'
   - intake-parquet>=0.2.3 ; extra == 'examples'
   - intake-xarray>=0.5.0 ; extra == 'examples'
-  - dask>=2021.3.0 ; extra == 'examples'
-  - notebook>=5.4 ; extra == 'examples'
-  - rasterio ; extra == 'examples'
-  - cartopy ; extra == 'examples'
-  - pyproj ; extra == 'examples'
-  - s3fs>=2022.1.0 ; extra == 'examples'
-  - scipy>=1.5.3 ; extra == 'examples'
-  - pillow>=8.2.0 ; extra == 'examples'
-  - selenium>=3.141.0 ; extra == 'examples'
-  - scikit-image>=0.17.2 ; extra == 'examples'
-  - python-snappy>=0.6.0 ; extra == 'examples'
-  - pooch>=1.6.0 ; extra == 'examples'
-  - fiona ; extra == 'examples'
-  - rioxarray ; extra == 'examples'
-  - matplotlib ; extra == 'examples'
-  - plotly ; extra == 'examples'
-  - pygraphviz ; extra == 'examples'
+  - intake<2.0.0,>=0.6.5 ; extra == 'examples'
   - ipywidgets ; extra == 'examples'
+  - networkx>=2.6.3 ; extra == 'examples'
+  - matplotlib ; extra == 'examples'
+  - notebook>=5.4 ; extra == 'examples'
   - numba>=0.51.0 ; extra == 'examples'
-  - datashader>=0.6.5 ; extra == 'examples'
-  - spatialpandas>=0.4.3 ; extra == 'examples'
+  - pillow>=8.2.0 ; extra == 'examples'
+  - plotly ; extra == 'examples'
   - polars ; extra == 'examples'
-  - fugue ; extra == 'examples'
-  - ibis-framework ; extra == 'examples'
-  - geoviews>=1.9.0 ; extra == 'examples-tests'
-  - geopandas ; extra == 'examples-tests'
-  - xarray>=0.18.2 ; extra == 'examples-tests'
-  - networkx>=2.6.3 ; extra == 'examples-tests'
-  - streamz>=0.3.0 ; extra == 'examples-tests'
-  - intake>=0.6.5 ; extra == 'examples-tests'
-  - intake-parquet>=0.2.3 ; extra == 'examples-tests'
-  - intake-xarray>=0.5.0 ; extra == 'examples-tests'
-  - dask>=2021.3.0 ; extra == 'examples-tests'
-  - notebook>=5.4 ; extra == 'examples-tests'
-  - rasterio ; extra == 'examples-tests'
-  - cartopy ; extra == 'examples-tests'
-  - pyproj ; extra == 'examples-tests'
-  - s3fs>=2022.1.0 ; extra == 'examples-tests'
-  - scipy>=1.5.3 ; extra == 'examples-tests'
-  - pillow>=8.2.0 ; extra == 'examples-tests'
-  - selenium>=3.141.0 ; extra == 'examples-tests'
-  - scikit-image>=0.17.2 ; extra == 'examples-tests'
-  - python-snappy>=0.6.0 ; extra == 'examples-tests'
-  - pooch>=1.6.0 ; extra == 'examples-tests'
-  - fiona ; extra == 'examples-tests'
-  - rioxarray ; extra == 'examples-tests'
-  - matplotlib ; extra == 'examples-tests'
-  - plotly ; extra == 'examples-tests'
-  - pygraphviz ; extra == 'examples-tests'
-  - ipywidgets ; extra == 'examples-tests'
-  - numba>=0.51.0 ; extra == 'examples-tests'
-  - datashader>=0.6.5 ; extra == 'examples-tests'
-  - spatialpandas>=0.4.3 ; extra == 'examples-tests'
-  - polars ; extra == 'examples-tests'
-  - fugue ; extra == 'examples-tests'
-  - ibis-framework ; extra == 'examples-tests'
-  - pytest-xdist ; extra == 'examples-tests'
-  - nbval ; extra == 'examples-tests'
-  - codecov ; extra == 'tests'
-  - flake8 ; extra == 'tests'
-  - pre-commit ; extra == 'tests'
-  - parameterized ; extra == 'tests'
-  - pytest ; extra == 'tests'
-  - pytest-cov ; extra == 'tests'
-  - matplotlib ; extra == 'tests'
-  - plotly ; extra == 'tests'
-  - xarray ; extra == 'tests'
-  - pooch ; extra == 'tests'
-  - scipy ; extra == 'tests'
-  - ipywidgets ; extra == 'tests'
-  - dask ; extra == 'tests'
+  - pooch>=1.6.0 ; extra == 'examples'
+  - s3fs>=2022.1.0 ; extra == 'examples'
+  - scikit-image>=0.17.2 ; extra == 'examples'
+  - scipy>=1.5.3 ; extra == 'examples'
+  - selenium>=3.141.0 ; extra == 'examples'
+  - streamz>=0.3.0 ; extra == 'examples'
+  - xarray>=0.18.2 ; extra == 'examples'
+  - xyzservices>=2022.9.0 ; extra == 'examples'
+  - geodatasets>=2023.12.0 ; extra == 'examples'
+  - hvplot[examples] ; extra == 'examples-tests'
+  - hvplot[tests-nb] ; extra == 'examples-tests'
+  - qpd>=0.4.4 ; extra == 'fugue-sql'
+  - fugue-sql-antlr>=0.2.0 ; extra == 'fugue-sql'
+  - sqlglot ; extra == 'fugue-sql'
+  - jinja2 ; extra == 'fugue-sql'
+  - cartopy ; extra == 'geo'
+  - fiona ; extra == 'geo'
+  - geopandas ; extra == 'geo'
+  - geoviews>=1.9.0 ; extra == 'geo'
+  - pyproj ; extra == 'geo'
+  - rasterio ; extra == 'geo'
+  - rioxarray ; extra == 'geo'
+  - spatialpandas>=0.4.3 ; extra == 'geo'
+  - pygraphviz ; extra == 'graphviz'
+  - colorcet>=0.0.1a1 ; extra == 'hvdev'
+  - datashader>=0.0.1a1 ; extra == 'hvdev'
+  - holoviews>=0.0.1a1 ; extra == 'hvdev'
+  - panel>=0.0.1a1 ; extra == 'hvdev'
+  - param>=0.0.1a1 ; extra == 'hvdev'
+  - pyviz-comms>=0.0.1a1 ; extra == 'hvdev'
+  - geoviews>=0.0.1a1 ; extra == 'hvdev-geo'
+  - hvplot[tests-core] ; extra == 'tests'
+  - fugue[sql] ; extra == 'tests'
+  - hvplot[fugue-sql] ; extra == 'tests'
+  - ibis-framework[duckdb] ; extra == 'tests'
   - polars ; extra == 'tests'
-  - fugue ; extra == 'tests'
-  - ibis-framework ; extra == 'tests'
-  - codecov ; extra == 'tests-core'
-  - flake8 ; extra == 'tests-core'
-  - pre-commit ; extra == 'tests-core'
-  - parameterized ; extra == 'tests-core'
-  - pytest ; extra == 'tests-core'
-  - pytest-cov ; extra == 'tests-core'
-  - matplotlib ; extra == 'tests-core'
-  - plotly ; extra == 'tests-core'
-  - xarray ; extra == 'tests-core'
-  - pooch ; extra == 'tests-core'
-  - scipy ; extra == 'tests-core'
+  - dask[dataframe] ; extra == 'tests-core'
   - ipywidgets ; extra == 'tests-core'
-  - dask ; extra == 'tests-core'
+  - matplotlib ; extra == 'tests-core'
+  - parameterized ; extra == 'tests-core'
+  - plotly ; extra == 'tests-core'
+  - pooch ; extra == 'tests-core'
+  - pre-commit ; extra == 'tests-core'
+  - pytest-cov ; extra == 'tests-core'
+  - pytest ; extra == 'tests-core'
+  - ruff ; extra == 'tests-core'
+  - scipy ; extra == 'tests-core'
+  - xarray ; extra == 'tests-core'
   - pytest-xdist ; extra == 'tests-nb'
   - nbval ; extra == 'tests-nb'
   requires_python: '>=3.8'
@@ -1571,20 +1257,25 @@ packages:
   requires_python: '>=3.7'
 - kind: pypi
   name: matplotlib
-  version: 3.8.2
-  url: https://files.pythonhosted.org/packages/19/e5/a4ea514515f270224435c69359abb7a3d152ed31b9ee3ba5e63017461945/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: 4e208f46cf6576a7624195aa047cb344a7f802e113bb1a06cfd4bee431de5e31
+  version: 3.9.0
+  url: https://files.pythonhosted.org/packages/a7/68/16e7b9154fae61fb29f0f3450b39b855b89e6d2c598d67302e70f96883af/matplotlib-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: eaf3978060a106fab40c328778b148f590e27f6fa3cd15a19d6892575bce387d
   requires_dist:
   - contourpy>=1.0.1
   - cycler>=0.10
   - fonttools>=4.22.0
   - kiwisolver>=1.3.1
-  - numpy<2,>=1.21
+  - numpy>=1.23
   - packaging>=20.0
   - pillow>=8
   - pyparsing>=2.3.1
   - python-dateutil>=2.7
   - importlib-resources>=3.2.0 ; python_version < '3.10'
+  - meson-python>=0.13.1 ; extra == 'dev'
+  - numpy>=1.25 ; extra == 'dev'
+  - pybind11>=2.6 ; extra == 'dev'
+  - setuptools-scm>=7 ; extra == 'dev'
+  - setuptools>=64 ; extra == 'dev'
   requires_python: '>=3.9'
 - kind: pypi
   name: mccabe
@@ -1696,9 +1387,9 @@ packages:
   timestamp: 1717546157673
 - kind: pypi
   name: optuna
-  version: 3.5.0
-  url: https://files.pythonhosted.org/packages/4c/6a/219a431aaf81b3eb3070fd2d58116baa366d3072f43bbcc87dc3495b7546/optuna-3.5.0-py3-none-any.whl
-  sha256: 4c86bbcaeff9ad5b0758e87537793f66df8f9352246315d7121ea465724a44e8
+  version: 3.6.1
+  url: https://files.pythonhosted.org/packages/15/da/68883911855d8b4d521f9a370e4e6aab8232b91c1d8d5a8348c4680c6642/optuna-3.6.1-py3-none-any.whl
+  sha256: b32e0490bd6552790b70ec94de77dd2855057c9e229cd9f4da48fe8a31c7f1cc
   requires_dist:
   - alembic>=1.5.0
   - colorlog
@@ -1710,7 +1401,6 @@ packages:
   - asv>=0.5.0 ; extra == 'benchmark'
   - botorch ; extra == 'benchmark'
   - cma ; extra == 'benchmark'
-  - scikit-optimize ; extra == 'benchmark'
   - virtualenv ; extra == 'benchmark'
   - black ; extra == 'checking'
   - blackdoc ; extra == 'checking'
@@ -1724,46 +1414,21 @@ packages:
   - types-tqdm ; extra == 'checking'
   - typing-extensions>=3.10.0.0 ; extra == 'checking'
   - ase ; extra == 'document'
-  - cma ; extra == 'document'
   - cmaes>=0.10.0 ; extra == 'document'
-  - botorch ; extra == 'document'
-  - distributed ; extra == 'document'
   - fvcore ; extra == 'document'
   - lightgbm ; extra == 'document'
   - matplotlib!=3.6.0 ; extra == 'document'
-  - mlflow ; extra == 'document'
   - pandas ; extra == 'document'
   - pillow ; extra == 'document'
   - plotly>=4.9.0 ; extra == 'document'
   - scikit-learn ; extra == 'document'
-  - scikit-optimize ; extra == 'document'
   - sphinx ; extra == 'document'
   - sphinx-copybutton ; extra == 'document'
   - sphinx-gallery ; extra == 'document'
   - sphinx-plotly-directive ; extra == 'document'
   - sphinx-rtd-theme>=1.2.0 ; extra == 'document'
   - torch ; extra == 'document'
-  - torchaudio ; extra == 'document'
   - torchvision ; extra == 'document'
-  - botorch>=0.4.0 ; extra == 'integration'
-  - cma ; extra == 'integration'
-  - distributed ; extra == 'integration'
-  - lightgbm ; extra == 'integration'
-  - lightning ; extra == 'integration'
-  - mlflow ; extra == 'integration'
-  - pandas ; extra == 'integration'
-  - pytorch-ignite ; extra == 'integration'
-  - scikit-learn>=0.24.2 ; extra == 'integration'
-  - scikit-optimize ; extra == 'integration'
-  - shap ; extra == 'integration'
-  - tensorflow ; extra == 'integration'
-  - torch ; extra == 'integration'
-  - torchaudio ; extra == 'integration'
-  - torchvision ; extra == 'integration'
-  - wandb ; extra == 'integration'
-  - xgboost ; extra == 'integration'
-  - catboost>=0.26 ; sys_platform != 'darwin' and extra == 'integration'
-  - catboost<1.2,>=0.26 ; sys_platform == 'darwin' and extra == 'integration'
   - boto3 ; extra == 'optional'
   - cmaes>=0.10.0 ; extra == 'optional'
   - google-cloud-storage ; extra == 'optional'
@@ -1772,12 +1437,14 @@ packages:
   - plotly>=4.9.0 ; extra == 'optional'
   - redis ; extra == 'optional'
   - scikit-learn>=0.24.2 ; extra == 'optional'
-  - botorch ; python_version <= '3.11' and extra == 'optional'
+  - scipy ; extra == 'optional'
+  - torch ; extra == 'optional'
   - coverage ; extra == 'test'
   - fakeredis[lua] ; extra == 'test'
   - kaleido ; extra == 'test'
   - moto ; extra == 'test'
   - pytest ; extra == 'test'
+  - torch ; extra == 'test'
   - scipy>=1.9.2 ; python_version >= '3.8' and extra == 'test'
   requires_python: '>=3.7'
 - kind: pypi
@@ -1788,96 +1455,104 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: pandas
-  version: 2.1.4
-  url: https://files.pythonhosted.org/packages/b1/67/aca1f6e215d957d24d0a290321f368503305480268f9617bf625243e9dea/pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: 00028e6737c594feac3c2df15636d73ace46b8314d236100b57ed7e4b9ebe8d9
+  version: 2.2.2
+  url: https://files.pythonhosted.org/packages/89/1b/12521efcbc6058e2673583bb096c2b5046a9df39bd73eca392c1efed24e5/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: 8635c16bf3d99040fdf3ca3db669a7250ddf49c55dc4aa8fe0ae0fa8d6dcc1f0
   requires_dist:
-  - numpy<2,>=1.22.4 ; python_version < '3.11'
-  - numpy<2,>=1.23.2 ; python_version == '3.11'
-  - numpy<2,>=1.26.0 ; python_version >= '3.12'
+  - numpy>=1.22.4 ; python_version < '3.11'
+  - numpy>=1.23.2 ; python_version == '3.11'
+  - numpy>=1.26.0 ; python_version >= '3.12'
   - python-dateutil>=2.8.2
   - pytz>=2020.1
-  - tzdata>=2022.1
+  - tzdata>=2022.7
   - hypothesis>=6.46.1 ; extra == 'test'
   - pytest>=7.3.2 ; extra == 'test'
   - pytest-xdist>=2.2.0 ; extra == 'test'
-  - bottleneck>=1.3.4 ; extra == 'performance'
-  - numba>=0.55.2 ; extra == 'performance'
-  - numexpr>=2.8.0 ; extra == 'performance'
-  - scipy>=1.8.1 ; extra == 'computation'
-  - xarray>=2022.3.0 ; extra == 'computation'
-  - fsspec>=2022.5.0 ; extra == 'fss'
-  - s3fs>=2022.5.0 ; extra == 'aws'
-  - gcsfs>=2022.5.0 ; extra == 'gcp'
-  - pandas-gbq>=0.17.5 ; extra == 'gcp'
+  - pyarrow>=10.0.1 ; extra == 'pyarrow'
+  - bottleneck>=1.3.6 ; extra == 'performance'
+  - numba>=0.56.4 ; extra == 'performance'
+  - numexpr>=2.8.4 ; extra == 'performance'
+  - scipy>=1.10.0 ; extra == 'computation'
+  - xarray>=2022.12.0 ; extra == 'computation'
+  - fsspec>=2022.11.0 ; extra == 'fss'
+  - s3fs>=2022.11.0 ; extra == 'aws'
+  - gcsfs>=2022.11.0 ; extra == 'gcp'
+  - pandas-gbq>=0.19.0 ; extra == 'gcp'
   - odfpy>=1.4.1 ; extra == 'excel'
-  - openpyxl>=3.0.10 ; extra == 'excel'
-  - pyxlsb>=1.0.9 ; extra == 'excel'
+  - openpyxl>=3.1.0 ; extra == 'excel'
+  - python-calamine>=0.1.7 ; extra == 'excel'
+  - pyxlsb>=1.0.10 ; extra == 'excel'
   - xlrd>=2.0.1 ; extra == 'excel'
-  - xlsxwriter>=3.0.3 ; extra == 'excel'
-  - pyarrow>=7.0.0 ; extra == 'parquet'
-  - pyarrow>=7.0.0 ; extra == 'feather'
-  - tables>=3.7.0 ; extra == 'hdf5'
-  - pyreadstat>=1.1.5 ; extra == 'spss'
-  - sqlalchemy>=1.4.36 ; extra == 'postgresql'
-  - psycopg2>=2.9.3 ; extra == 'postgresql'
-  - sqlalchemy>=1.4.36 ; extra == 'mysql'
+  - xlsxwriter>=3.0.5 ; extra == 'excel'
+  - pyarrow>=10.0.1 ; extra == 'parquet'
+  - pyarrow>=10.0.1 ; extra == 'feather'
+  - tables>=3.8.0 ; extra == 'hdf5'
+  - pyreadstat>=1.2.0 ; extra == 'spss'
+  - sqlalchemy>=2.0.0 ; extra == 'postgresql'
+  - psycopg2>=2.9.6 ; extra == 'postgresql'
+  - adbc-driver-postgresql>=0.8.0 ; extra == 'postgresql'
+  - sqlalchemy>=2.0.0 ; extra == 'mysql'
   - pymysql>=1.0.2 ; extra == 'mysql'
-  - sqlalchemy>=1.4.36 ; extra == 'sql-other'
-  - beautifulsoup4>=4.11.1 ; extra == 'html'
+  - sqlalchemy>=2.0.0 ; extra == 'sql-other'
+  - adbc-driver-postgresql>=0.8.0 ; extra == 'sql-other'
+  - adbc-driver-sqlite>=0.8.0 ; extra == 'sql-other'
+  - beautifulsoup4>=4.11.2 ; extra == 'html'
   - html5lib>=1.1 ; extra == 'html'
-  - lxml>=4.8.0 ; extra == 'html'
-  - lxml>=4.8.0 ; extra == 'xml'
-  - matplotlib>=3.6.1 ; extra == 'plot'
+  - lxml>=4.9.2 ; extra == 'html'
+  - lxml>=4.9.2 ; extra == 'xml'
+  - matplotlib>=3.6.3 ; extra == 'plot'
   - jinja2>=3.1.2 ; extra == 'output-formatting'
-  - tabulate>=0.8.10 ; extra == 'output-formatting'
-  - pyqt5>=5.15.6 ; extra == 'clipboard'
-  - qtpy>=2.2.0 ; extra == 'clipboard'
-  - zstandard>=0.17.0 ; extra == 'compression'
+  - tabulate>=0.9.0 ; extra == 'output-formatting'
+  - pyqt5>=5.15.9 ; extra == 'clipboard'
+  - qtpy>=2.3.0 ; extra == 'clipboard'
+  - zstandard>=0.19.0 ; extra == 'compression'
   - dataframe-api-compat>=0.1.7 ; extra == 'consortium-standard'
-  - beautifulsoup4>=4.11.1 ; extra == 'all'
-  - bottleneck>=1.3.4 ; extra == 'all'
+  - adbc-driver-postgresql>=0.8.0 ; extra == 'all'
+  - adbc-driver-sqlite>=0.8.0 ; extra == 'all'
+  - beautifulsoup4>=4.11.2 ; extra == 'all'
+  - bottleneck>=1.3.6 ; extra == 'all'
   - dataframe-api-compat>=0.1.7 ; extra == 'all'
-  - fastparquet>=0.8.1 ; extra == 'all'
-  - fsspec>=2022.5.0 ; extra == 'all'
-  - gcsfs>=2022.5.0 ; extra == 'all'
+  - fastparquet>=2022.12.0 ; extra == 'all'
+  - fsspec>=2022.11.0 ; extra == 'all'
+  - gcsfs>=2022.11.0 ; extra == 'all'
   - html5lib>=1.1 ; extra == 'all'
   - hypothesis>=6.46.1 ; extra == 'all'
   - jinja2>=3.1.2 ; extra == 'all'
-  - lxml>=4.8.0 ; extra == 'all'
-  - matplotlib>=3.6.1 ; extra == 'all'
-  - numba>=0.55.2 ; extra == 'all'
-  - numexpr>=2.8.0 ; extra == 'all'
+  - lxml>=4.9.2 ; extra == 'all'
+  - matplotlib>=3.6.3 ; extra == 'all'
+  - numba>=0.56.4 ; extra == 'all'
+  - numexpr>=2.8.4 ; extra == 'all'
   - odfpy>=1.4.1 ; extra == 'all'
-  - openpyxl>=3.0.10 ; extra == 'all'
-  - pandas-gbq>=0.17.5 ; extra == 'all'
-  - psycopg2>=2.9.3 ; extra == 'all'
-  - pyarrow>=7.0.0 ; extra == 'all'
+  - openpyxl>=3.1.0 ; extra == 'all'
+  - pandas-gbq>=0.19.0 ; extra == 'all'
+  - psycopg2>=2.9.6 ; extra == 'all'
+  - pyarrow>=10.0.1 ; extra == 'all'
   - pymysql>=1.0.2 ; extra == 'all'
-  - pyqt5>=5.15.6 ; extra == 'all'
-  - pyreadstat>=1.1.5 ; extra == 'all'
+  - pyqt5>=5.15.9 ; extra == 'all'
+  - pyreadstat>=1.2.0 ; extra == 'all'
   - pytest>=7.3.2 ; extra == 'all'
   - pytest-xdist>=2.2.0 ; extra == 'all'
-  - pyxlsb>=1.0.9 ; extra == 'all'
-  - qtpy>=2.2.0 ; extra == 'all'
-  - scipy>=1.8.1 ; extra == 'all'
-  - s3fs>=2022.5.0 ; extra == 'all'
-  - sqlalchemy>=1.4.36 ; extra == 'all'
-  - tables>=3.7.0 ; extra == 'all'
-  - tabulate>=0.8.10 ; extra == 'all'
-  - xarray>=2022.3.0 ; extra == 'all'
+  - python-calamine>=0.1.7 ; extra == 'all'
+  - pyxlsb>=1.0.10 ; extra == 'all'
+  - qtpy>=2.3.0 ; extra == 'all'
+  - scipy>=1.10.0 ; extra == 'all'
+  - s3fs>=2022.11.0 ; extra == 'all'
+  - sqlalchemy>=2.0.0 ; extra == 'all'
+  - tables>=3.8.0 ; extra == 'all'
+  - tabulate>=0.9.0 ; extra == 'all'
+  - xarray>=2022.12.0 ; extra == 'all'
   - xlrd>=2.0.1 ; extra == 'all'
-  - xlsxwriter>=3.0.3 ; extra == 'all'
-  - zstandard>=0.17.0 ; extra == 'all'
+  - xlsxwriter>=3.0.5 ; extra == 'all'
+  - zstandard>=0.19.0 ; extra == 'all'
   requires_python: '>=3.9'
 - kind: pypi
   name: panel
-  version: 1.3.6
-  url: https://files.pythonhosted.org/packages/e1/56/61a0128713190a00495d3ff754042ce43f5c3e13a4a9ec1af3f7265c2f3d/panel-1.3.6-py2.py3-none-any.whl
-  sha256: d772ade53081d48ab5b58c82e7d65962edae5aef07707257e21277d6f4b3fd04
+  version: 1.4.4
+  url: https://files.pythonhosted.org/packages/57/02/71ff7c22c583deead1ad0461476cf4a7ecbbaf032672529f41bc0622c878/panel-1.4.4-py3-none-any.whl
+  sha256: b49bb9676567b0c0730bf69348c057247080811aec56364dd4fcfba80e5e09a0
   requires_dist:
-  - bokeh<3.4.0,>=3.2.0
-  - param<3.0,>=2.0.0
+  - bokeh<3.5.0,>=3.4.0
+  - param<3.0,>=2.1.0
   - pyviz-comms>=2.0.0
   - xyzservices>=2021.9.1
   - markdown
@@ -1894,6 +1569,7 @@ packages:
   - anywidget ; extra == 'all'
   - channels ; extra == 'all'
   - croniter ; extra == 'all'
+  - dask-expr ; extra == 'all'
   - datashader ; extra == 'all'
   - diskcache ; extra == 'all'
   - django<4 ; extra == 'all'
@@ -1915,8 +1591,7 @@ packages:
   - jupyterlab ; extra == 'all'
   - lxml ; extra == 'all'
   - matplotlib ; extra == 'all'
-  - myst-nb<1,>=0.17 ; extra == 'all'
-  - nbsite>=0.8.2 ; extra == 'all'
+  - nbsite>=0.8.4 ; extra == 'all'
   - nbval ; extra == 'all'
   - networkx>=2.5 ; extra == 'all'
   - numba<0.58 ; extra == 'all'
@@ -1934,7 +1609,7 @@ packages:
   - pygraphviz ; extra == 'all'
   - pyinstrument>=4.0 ; extra == 'all'
   - pytest ; extra == 'all'
-  - pytest-asyncio<0.22 ; extra == 'all'
+  - pytest-asyncio ; extra == 'all'
   - pytest-cov ; extra == 'all'
   - pytest-playwright ; extra == 'all'
   - pytest-rerunfailures ; extra == 'all'
@@ -1947,9 +1622,12 @@ packages:
   - scipy ; extra == 'all'
   - seaborn ; extra == 'all'
   - streamz ; extra == 'all'
+  - textual ; extra == 'all'
+  - tomli ; extra == 'all'
   - twine ; extra == 'all'
   - vega-datasets ; extra == 'all'
   - vtk ; extra == 'all'
+  - watchfiles ; extra == 'all'
   - xarray ; extra == 'all'
   - xgboost ; extra == 'all'
   - aiohttp ; extra == 'all-pip'
@@ -1957,6 +1635,7 @@ packages:
   - anywidget ; extra == 'all-pip'
   - channels ; extra == 'all-pip'
   - croniter ; extra == 'all-pip'
+  - dask-expr ; extra == 'all-pip'
   - datashader ; extra == 'all-pip'
   - diskcache ; extra == 'all-pip'
   - django<4 ; extra == 'all-pip'
@@ -1978,8 +1657,7 @@ packages:
   - jupyterlab ; extra == 'all-pip'
   - lxml ; extra == 'all-pip'
   - matplotlib ; extra == 'all-pip'
-  - myst-nb<1,>=0.17 ; extra == 'all-pip'
-  - nbsite>=0.8.2 ; extra == 'all-pip'
+  - nbsite>=0.8.4 ; extra == 'all-pip'
   - nbval ; extra == 'all-pip'
   - networkx>=2.5 ; extra == 'all-pip'
   - numba<0.58 ; extra == 'all-pip'
@@ -1996,7 +1674,7 @@ packages:
   - pydeck ; extra == 'all-pip'
   - pyinstrument>=4.0 ; extra == 'all-pip'
   - pytest ; extra == 'all-pip'
-  - pytest-asyncio<0.22 ; extra == 'all-pip'
+  - pytest-asyncio ; extra == 'all-pip'
   - pytest-cov ; extra == 'all-pip'
   - pytest-playwright ; extra == 'all-pip'
   - pytest-rerunfailures ; extra == 'all-pip'
@@ -2008,16 +1686,19 @@ packages:
   - scipy ; extra == 'all-pip'
   - seaborn ; extra == 'all-pip'
   - streamz ; extra == 'all-pip'
+  - textual ; extra == 'all-pip'
+  - tomli ; extra == 'all-pip'
   - twine ; extra == 'all-pip'
   - vega-datasets ; extra == 'all-pip'
   - vtk ; extra == 'all-pip'
+  - watchfiles ; extra == 'all-pip'
   - xarray ; extra == 'all-pip'
   - xgboost ; extra == 'all-pip'
   - param>=2.0.0 ; extra == 'build'
   - setuptools>=42 ; extra == 'build'
   - requests ; extra == 'build'
   - packaging ; extra == 'build'
-  - bokeh<3.4.0,>=3.3.0 ; extra == 'build'
+  - bokeh<3.5.0,>=3.4.0 ; extra == 'build'
   - pyviz-comms>=2.0.0 ; extra == 'build'
   - bleach ; extra == 'build'
   - markdown ; extra == 'build'
@@ -2029,8 +1710,7 @@ packages:
   - matplotlib ; extra == 'doc'
   - pillow ; extra == 'doc'
   - plotly ; extra == 'doc'
-  - nbsite>=0.8.2 ; extra == 'doc'
-  - myst-nb<1,>=0.17 ; extra == 'doc'
+  - nbsite>=0.8.4 ; extra == 'doc'
   - lxml ; extra == 'doc'
   - pandas<2.1.0 ; extra == 'doc'
   - holoviews>=1.16.0 ; extra == 'examples'
@@ -2067,6 +1747,8 @@ packages:
   - reacton ; extra == 'examples'
   - scikit-image ; extra == 'examples'
   - fastparquet ; extra == 'examples'
+  - textual ; extra == 'examples'
+  - dask-expr ; extra == 'examples'
   - jupyterlab ; extra == 'recommended'
   - holoviews>=1.16.0 ; extra == 'recommended'
   - matplotlib ; extra == 'recommended'
@@ -2077,7 +1759,7 @@ packages:
   - pytest ; extra == 'tests'
   - nbval ; extra == 'tests'
   - pytest-rerunfailures ; extra == 'tests'
-  - pytest-asyncio<0.22 ; extra == 'tests'
+  - pytest-asyncio ; extra == 'tests'
   - pytest-xdist ; extra == 'tests'
   - pytest-cov ; extra == 'tests'
   - pre-commit ; extra == 'tests'
@@ -2091,6 +1773,8 @@ packages:
   - pandas>=1.3 ; extra == 'tests'
   - ipython>=7.0 ; extra == 'tests'
   - scipy ; extra == 'tests'
+  - textual ; extra == 'tests'
+  - watchfiles ; extra == 'tests'
   - ipympl ; extra == 'tests'
   - ipyvuetify ; extra == 'tests'
   - ipywidgets-bokeh ; extra == 'tests'
@@ -2102,7 +1786,7 @@ packages:
   - pytest ; extra == 'tests-core'
   - nbval ; extra == 'tests-core'
   - pytest-rerunfailures ; extra == 'tests-core'
-  - pytest-asyncio<0.22 ; extra == 'tests-core'
+  - pytest-asyncio ; extra == 'tests-core'
   - pytest-xdist ; extra == 'tests-core'
   - pytest-cov ; extra == 'tests-core'
   - pre-commit ; extra == 'tests-core'
@@ -2116,20 +1800,23 @@ packages:
   - pandas>=1.3 ; extra == 'tests-core'
   - ipython>=7.0 ; extra == 'tests-core'
   - scipy ; extra == 'tests-core'
+  - textual ; extra == 'tests-core'
+  - watchfiles ; extra == 'tests-core'
   - jupyter-server ; extra == 'ui'
   - playwright ; extra == 'ui'
   - pytest-playwright ; extra == 'ui'
+  - tomli ; extra == 'ui'
   requires_python: '>=3.9'
 - kind: pypi
   name: param
-  version: 2.0.1
-  url: https://files.pythonhosted.org/packages/2c/7c/bbb850b1368f4a2d51bccaf7d6c9acc2f1d7c5ee97f7f7cca1c62b1bf23b/param-2.0.1-py3-none-any.whl
-  sha256: 4bfc94c0e4127626fa833e30c71c91ea73e7675b80c26dbdd4a6e5a8f6dc46db
+  version: 2.1.0
+  url: https://files.pythonhosted.org/packages/25/7e/8bc23416cf4cd6ded2eaf78e09f90c97975987f705d23075b4d3bfbc065a/param-2.1.0-py3-none-any.whl
+  sha256: f31d3745d227347d29b5868c4e4e3077df07463889b91d3bb28e634fde211e1c
   requires_dist:
   - param[doc] ; extra == 'all'
   - param[lint] ; extra == 'all'
   - param[tests-full] ; extra == 'all'
-  - nbsite==0.8.2 ; extra == 'doc'
+  - nbsite==0.8.4 ; extra == 'doc'
   - param[examples] ; extra == 'doc'
   - sphinx-remove-toctrees ; extra == 'doc'
   - aiohttp ; extra == 'examples'
@@ -2147,9 +1834,9 @@ packages:
   - xlrd ; extra == 'tests-deser'
   - nbval ; extra == 'tests-examples'
   - param[examples] ; extra == 'tests-examples'
-  - pytest ; extra == 'tests-examples'
   - pytest-asyncio ; extra == 'tests-examples'
   - pytest-xdist ; extra == 'tests-examples'
+  - pytest<8.1 ; extra == 'tests-examples'
   - cloudpickle ; extra == 'tests-full'
   - gmpy ; extra == 'tests-full'
   - ipython ; extra == 'tests-full'
@@ -2221,13 +1908,13 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: plotly
-  version: 5.18.0
-  url: https://files.pythonhosted.org/packages/a8/07/72953cf70e3bd3a24cbc3e743e6f8539abe6e3e6d83c3c0c83426eaffd39/plotly-5.18.0-py3-none-any.whl
-  sha256: 23aa8ea2f4fb364a20d34ad38235524bd9d691bf5299e800bca608c31e8db8de
+  version: 5.22.0
+  url: https://files.pythonhosted.org/packages/0b/f8/b65cdd2be32e442c4efe7b672f73c90b05eab5a7f3f4115efe181d432c60/plotly-5.22.0-py3-none-any.whl
+  sha256: 68fc1901f098daeb233cc3dd44ec9dc31fb3ca4f4e53189344199c43496ed006
   requires_dist:
   - tenacity>=6.2.0
   - packaging
-  requires_python: '>=3.6'
+  requires_python: '>=3.8'
 - kind: pypi
   name: pluggy
   version: 1.5.0
@@ -2499,49 +2186,61 @@ packages:
   requires_python: '>=3.7'
 - kind: pypi
   name: scikit-learn
-  version: 1.3.2
-  url: https://files.pythonhosted.org/packages/d0/0b/26ad95cf0b747be967b15fb71a06f5ac67aba0fd2f9cd174de6edefc4674/scikit_learn-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  sha256: 0ee107923a623b9f517754ea2f69ea3b62fc898a3641766cb7deb2f2ce450161
+  version: 1.5.0
+  url: https://files.pythonhosted.org/packages/1e/7d/1a2ea8eb5b4df373c30c7418cf26305a4a05e2a0e56c80a8043b791595f3/scikit_learn-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  sha256: 2c75ea812cd83b1385bbfa94ae971f0d80adb338a9523f6bbcb5e0b0381151d4
   requires_dist:
-  - numpy<2.0,>=1.17.3
-  - scipy>=1.5.0
-  - joblib>=1.1.1
-  - threadpoolctl>=2.0.0
-  - matplotlib>=3.1.3 ; extra == 'benchmark'
-  - pandas>=1.0.5 ; extra == 'benchmark'
+  - numpy>=1.19.5
+  - scipy>=1.6.0
+  - joblib>=1.2.0
+  - threadpoolctl>=3.1.0
+  - numpy>=1.19.5 ; extra == 'build'
+  - scipy>=1.6.0 ; extra == 'build'
+  - cython>=3.0.10 ; extra == 'build'
+  - meson-python>=0.15.0 ; extra == 'build'
+  - numpy>=1.19.5 ; extra == 'install'
+  - scipy>=1.6.0 ; extra == 'install'
+  - joblib>=1.2.0 ; extra == 'install'
+  - threadpoolctl>=3.1.0 ; extra == 'install'
+  - matplotlib>=3.3.4 ; extra == 'benchmark'
+  - pandas>=1.1.5 ; extra == 'benchmark'
   - memory-profiler>=0.57.0 ; extra == 'benchmark'
-  - matplotlib>=3.1.3 ; extra == 'docs'
-  - scikit-image>=0.16.2 ; extra == 'docs'
-  - pandas>=1.0.5 ; extra == 'docs'
+  - matplotlib>=3.3.4 ; extra == 'docs'
+  - scikit-image>=0.17.2 ; extra == 'docs'
+  - pandas>=1.1.5 ; extra == 'docs'
   - seaborn>=0.9.0 ; extra == 'docs'
   - memory-profiler>=0.57.0 ; extra == 'docs'
   - sphinx>=6.0.0 ; extra == 'docs'
   - sphinx-copybutton>=0.5.2 ; extra == 'docs'
-  - sphinx-gallery>=0.10.1 ; extra == 'docs'
+  - sphinx-gallery>=0.15.0 ; extra == 'docs'
   - numpydoc>=1.2.0 ; extra == 'docs'
   - pillow>=7.1.2 ; extra == 'docs'
   - pooch>=1.6.0 ; extra == 'docs'
   - sphinx-prompt>=1.3.0 ; extra == 'docs'
   - sphinxext-opengraph>=0.4.2 ; extra == 'docs'
   - plotly>=5.14.0 ; extra == 'docs'
-  - matplotlib>=3.1.3 ; extra == 'examples'
-  - scikit-image>=0.16.2 ; extra == 'examples'
-  - pandas>=1.0.5 ; extra == 'examples'
+  - polars>=0.20.23 ; extra == 'docs'
+  - matplotlib>=3.3.4 ; extra == 'examples'
+  - scikit-image>=0.17.2 ; extra == 'examples'
+  - pandas>=1.1.5 ; extra == 'examples'
   - seaborn>=0.9.0 ; extra == 'examples'
   - pooch>=1.6.0 ; extra == 'examples'
   - plotly>=5.14.0 ; extra == 'examples'
-  - matplotlib>=3.1.3 ; extra == 'tests'
-  - scikit-image>=0.16.2 ; extra == 'tests'
-  - pandas>=1.0.5 ; extra == 'tests'
+  - matplotlib>=3.3.4 ; extra == 'tests'
+  - scikit-image>=0.17.2 ; extra == 'tests'
+  - pandas>=1.1.5 ; extra == 'tests'
   - pytest>=7.1.2 ; extra == 'tests'
   - pytest-cov>=2.9.0 ; extra == 'tests'
-  - ruff>=0.0.272 ; extra == 'tests'
-  - black>=23.3.0 ; extra == 'tests'
-  - mypy>=1.3 ; extra == 'tests'
+  - ruff>=0.2.1 ; extra == 'tests'
+  - black>=24.3.0 ; extra == 'tests'
+  - mypy>=1.9 ; extra == 'tests'
   - pyamg>=4.0.0 ; extra == 'tests'
+  - polars>=0.20.23 ; extra == 'tests'
+  - pyarrow>=12.0.0 ; extra == 'tests'
   - numpydoc>=1.2.0 ; extra == 'tests'
   - pooch>=1.6.0 ; extra == 'tests'
-  requires_python: '>=3.8'
+  - conda-lock==2.5.6 ; extra == 'maintenance'
+  requires_python: '>=3.9'
 - kind: pypi
   name: scipy
   version: 1.13.1
@@ -2747,9 +2446,9 @@ packages:
   requires_python: '>=3.6,<4.0'
 - kind: pypi
   name: taichi-sweep
-  version: 0.1.0
+  version: 0.1.1
   path: .
-  sha256: 7455e7c18948c74008dc53da65606b9f4a671a87ede9f10b6981df27dd29412f
+  sha256: e114ce2a6979324788dc4b9ab7847fe78d87ed085f2fa321d0bb9c832acb8152
   requires_dist:
   - black>=23,<=24.4.2 ; extra == 'test'
   - pylint>=2.17.7,<=3.2.3 ; extra == 'test'
@@ -2906,19 +2605,29 @@ packages:
   sha256: a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78
 - kind: pypi
   name: xarray
-  version: 2023.12.0
-  url: https://files.pythonhosted.org/packages/54/a3/289d1b5703412247551fc9f2057e8726567bdd278d25c37ad834f78c851e/xarray-2023.12.0-py3-none-any.whl
-  sha256: 3c22b6824681762b6c3fcad86dfd18960a617bccbc7f456ce21b43a20e455fb9
+  version: 2024.6.0
+  url: https://files.pythonhosted.org/packages/ce/78/7a78d5197e409371c4fd9734ad9ab41ed6f9147b3ac23256c4e6c81295f2/xarray-2024.6.0-py3-none-any.whl
+  sha256: 721a7394e8ec3d592b2d8ebe21eed074ac077dc1bb1bd777ce00e41700b4866c
   requires_dist:
-  - numpy>=1.22
-  - packaging>=21.3
-  - pandas>=1.4
+  - numpy>=1.23
+  - packaging>=23.1
+  - pandas>=2.0
   - scipy ; extra == 'accel'
   - bottleneck ; extra == 'accel'
   - numbagg ; extra == 'accel'
   - flox ; extra == 'accel'
   - opt-einsum ; extra == 'accel'
-  - xarray[accel,io,parallel,viz] ; extra == 'complete'
+  - xarray[accel,dev,io,parallel,viz] ; extra == 'complete'
+  - hypothesis ; extra == 'dev'
+  - mypy ; extra == 'dev'
+  - pre-commit ; extra == 'dev'
+  - pytest ; extra == 'dev'
+  - pytest-cov ; extra == 'dev'
+  - pytest-env ; extra == 'dev'
+  - pytest-xdist ; extra == 'dev'
+  - pytest-timeout ; extra == 'dev'
+  - ruff ; extra == 'dev'
+  - xarray[complete] ; extra == 'dev'
   - netcdf4 ; extra == 'io'
   - h5netcdf ; extra == 'io'
   - scipy ; extra == 'io'

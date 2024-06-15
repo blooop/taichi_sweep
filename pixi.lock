@@ -30,7 +30,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c7/81/f49fae71340af02a6014278517c36449bdd8e8b792f4ef7397f3b054f460/astroid-3.2.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl
-      - pypi: git+https://github.com/dyson-ai/bencher.git@c49bbfc75993e1d66a5103569849c8f5cc6810dd
       - pypi: https://files.pythonhosted.org/packages/e0/7d/7f8df0fdbbbefc4362d3eca6b69b7a8a4249a8a88dabc00a207d31fddcd7/black-24.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
@@ -49,6 +48,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/01/90/79fe92dd413a9cab314ef5c591b5aa9b9ba787ae4cadab75055b0ae00b33/exceptiongroup-1.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/13/10/1040d11375da7347c404b9d54e386f5f4be47c8c449e37957ee12fdd37d0/hypothesis-6.103.1-py3-none-any.whl
@@ -153,7 +153,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2024a-h0c530f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xz-5.2.6-h166bdaf_0.tar.bz2
       - pypi: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
-      - pypi: git+https://github.com/dyson-ai/bencher.git@c49bbfc75993e1d66a5103569849c8f5cc6810dd
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl
@@ -171,6 +170,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/b5/ca/97dc5fbc51daf1626c1a773aca86c058574a615b47cc47854e835e71e27a/empy-4.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl
@@ -269,7 +269,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c7/81/f49fae71340af02a6014278517c36449bdd8e8b792f4ef7397f3b054f460/astroid-3.2.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl
-      - pypi: git+https://github.com/dyson-ai/bencher.git@c49bbfc75993e1d66a5103569849c8f5cc6810dd
       - pypi: https://files.pythonhosted.org/packages/e0/7d/7f8df0fdbbbefc4362d3eca6b69b7a8a4249a8a88dabc00a207d31fddcd7/black-24.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/39/ba/aefd7aacc9e086e2c7f3bb42e99cb8e2a8f24dcb4bf78519ef25a9102988/bokeh-3.3.4-py3-none-any.whl
@@ -288,6 +287,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/01/90/79fe92dd413a9cab314ef5c591b5aa9b9ba787ae4cadab75055b0ae00b33/exceptiongroup-1.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7a/d0/010c65f46fb14333cdb537566d1532e64361eb981180ab73f1148e927382/fonttools-4.53.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1c/2f/64628f6ae48e05f585e0eb3fb7399b52e240ef99f602107b445bf6be23ef/greenlet-3.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/dc/25/8f22bc587eb77f399c5d3218b9743298ee7f0eedd937c6169d5a6b4db09e/holoviews-1.18.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/bd/bc/584a7c21acb408af9c3aaab3b087c21ac624605fbd5a4432455529ef851a/hvplot-0.9.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/13/10/1040d11375da7347c404b9d54e386f5f4be47c8c449e37957ee12fdd37d0/hypothesis-6.103.1-py3-none-any.whl
@@ -755,7 +755,8 @@ packages:
 - kind: pypi
   name: holobench
   version: 1.26.3
-  url: git+https://github.com/dyson-ai/bencher.git@c49bbfc75993e1d66a5103569849c8f5cc6810dd
+  url: https://files.pythonhosted.org/packages/83/05/5fe4c7b1b89de02de67af3736790c4b793196eda86662f5ca14fd0e86a32/holobench-1.26.3-py3-none-any.whl
+  sha256: 4256358c2f80b04658fcc2534825890952f3d20b6eb9fcd693e236bf84d6b7de
   requires_dist:
   - holoviews<=1.19.0,>=1.15
   - numpy<=1.26.4,>=1.0
@@ -2748,7 +2749,7 @@ packages:
   name: taichi-sweep
   version: 0.1.0
   path: .
-  sha256: 041ea8038184c2e92df16380e8166cabd88311c04e0e6a7b621956686885f154
+  sha256: 7455e7c18948c74008dc53da65606b9f4a671a87ede9f10b6981df27dd29412f
   requires_dist:
   - black>=23,<=24.4.2 ; extra == 'test'
   - pylint>=2.17.7,<=3.2.3 ; extra == 'test'

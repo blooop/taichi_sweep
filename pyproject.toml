@@ -22,11 +22,12 @@ python = "3.10.*"
 [tool.pixi.pypi-dependencies]
 taichi_sweep = { path = ".", editable = true }
 numpy=">=1.2,<=1.26.2"
-# holobench="==1.26.3"
-holobench={git = "https://github.com/dyson-ai/bencher.git"}
+holobench="==1.26.3"
+# holobench={git = "https://github.com/dyson-ai/bencher.git"}
 taichi= "*"
 vedo ="*"
 pyvista="*"
+
 
 [tool.pixi.feature.devenv.pypi-dependencies]
 deps-rocker = ">=0.2"
@@ -49,6 +50,9 @@ Home = "https://github.com/blooop/taichi_sweep"
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include= ["taichi_sweep"]
 
 # Environments
 [tool.pixi.environments]
@@ -80,8 +84,6 @@ ci-push = {depends_on=["format","ruff-lint","update-lock","ci","push"]}
 clear-pixi = "rm -rf .pixi pixi.lock"
 
 
-[tool.setuptools.packages.find]
-include= ["taichi_sweep"]
 
 [tool.pylint]
 extension-pkg-whitelist = ["numpy"]

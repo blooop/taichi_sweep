@@ -1,6 +1,5 @@
 import bencher as bch
 from taichi_sweep.turing_pattern import SweepTuring
-from taichi_sweep.publisher import publish_args
 
 if __name__ == "__main__":
     run_cfg = bch.BenchRunCfg()
@@ -16,4 +15,3 @@ if __name__ == "__main__":
 
     # bench.report.publish(publish_args, "docs")
     bench.report.show()
-

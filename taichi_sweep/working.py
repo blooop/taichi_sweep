@@ -14,5 +14,6 @@ if __name__ == "__main__":
         const_vars=dict(record_volume_vid=True),
     )
 
-    # bench.report.show()
-    bench.report.publish(publish_args, "docs")
+    # bench.report.publish(publish_args, "docs")
+    bench.report.show()
+

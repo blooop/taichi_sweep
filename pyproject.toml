@@ -29,17 +29,14 @@ vedo ="*"
 pyvista="*"
 
 
-[tool.pixi.feature.devenv.pypi-dependencies]
-deps-rocker = ">=0.2"
-
 [project.optional-dependencies]
 test = [
   "black>=23,<=24.4.2",
   "pylint>=2.17.7,<=3.2.3",
   "pytest-cov>=4.1,<=5.0.0",
   "pytest>=7.4,<=8.2.2",
-  "hypothesis>=6.82,<=6.103.1",
-  "ruff>=0.0.280,<=0.4.8",
+  "hypothesis>=6.82,<=6.103.2",
+  "ruff>=0.0.280,<=0.4.9",
   "coverage>=7.2.7,<=7.5.3",
 ]
 
@@ -59,10 +56,6 @@ include= ["taichi_sweep"]
 default = {features = ["test"], solve-group = "default" }
 py310 = ["py310","test"]
 # py311 = ["py311","test"]
-devenv =["devenv"]
-
-[tool.pixi.feature.devenv.tasks]
-code = "scripts/launch_vscode.sh"
 
 [tool.pixi.tasks]
 format = "black ."

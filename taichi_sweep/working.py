@@ -1,15 +1,18 @@
 import bencher as bch
 from taichi_sweep.turing_pattern import SweepTuring
+from taichi_sweep.publisher import publish_args
 
 if __name__ == "__main__":
     run_cfg = bch.BenchRunCfg()
     run_cfg.level = 2
-    run_cfg.use_sample_cache = False
+    run_cfg.use_sample_cache = True
     bench = SweepTuring().to_bench(run_cfg)
 
-    SweepTuring.param.Du.bounds = [0.13, 0.19]
+    bench.plot_sweep(
+        "turing",
+        input_vars=["feed", bch.p("Du", [0.13, 0.19])],
+        const_vars=dict(record_volume_vid=True),
+    )
 
-    SweepTuring.param.record_volume_vid.default = True
-
-    bench.plot_sweep("turing", input_vars=[SweepTuring.param.feed])
-    bench.report.show()
+    # bench.report.show()
+    bench.report.publish(publish_args, "docs")

@@ -2262,7 +2262,7 @@ packages:
   name: taichi-sweep
   version: 0.1.1
   path: .
-  sha256: 0b8e2e03a38d086f77f40c0c1fe5516fb52d7f2e0545251f08ffa51763fbaacc
+  sha256: 912c57dec858c8f7c0a63e299729d28707b4edc7a2a751e69723c62319862037
   requires_dist:
   - black>=23,<=24.4.2 ; extra == 'test'
   - pylint>=2.17.7,<=3.2.3 ; extra == 'test'

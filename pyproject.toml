@@ -31,8 +31,6 @@ pyvista="*"
 
 [project.optional-dependencies]
 test = [
-  "black>=23,<=24.4.2",
-  "pylint>=2.17.7,<=3.2.3",
   "pytest-cov>=4.1,<=5.0.0",
   "pytest>=7.4,<=8.2.2",
   "hypothesis>=6.82,<=6.103.2",
@@ -58,11 +56,10 @@ py310 = ["py310","test"]
 # py311 = ["py311","test"]
 
 [tool.pixi.tasks]
-format = "black ."
+format = "ruff format ."
 check-clean-workspace = "git diff --exit-code"
 ruff-lint = "ruff check . --fix"
-pylint = "pylint --version && echo 'running pylint...' && pylint $(git ls-files '*.py')"
-lint = { depends-on = ["ruff-lint", "pylint"] }
+lint = { depends-on = ["ruff-lint"] }
 style = { depends-on = ["format","lint"]}
 commit-format = "git commit -a -m'autoformat code'"
 test = "pytest"
@@ -72,7 +69,7 @@ update-lock = "pixi update && git commit -a -m'update pixi.lock'"
 push = "git push"
 update-lock-push = { depends-on = ["update-lock", "push"] }
 ci-no-cover = { depends-on = ["style", "test"] }
-ci = { depends-on = ["format","ruff-lint","check-clean-workspace","pylint", "coverage", "coverage-report"] }
+ci = { depends-on = ["format","ruff-lint","check-clean-workspace", "coverage", "coverage-report"] }
 ci-push = {depends-on=["format","ruff-lint","update-lock","ci","push"]}
 clear-pixi = "rm -rf .pixi pixi.lock"
 setup-git-merge-driver = "git config merge.ourslock.driver true"
@@ -80,25 +77,14 @@ update-from-template-repo = "./scripts/update_from_template.sh"
 
 
 
-[tool.pylint]
-extension-pkg-whitelist = ["numpy"]
-jobs = 16                           #detect number of cores
-
-[tool.pylint.'MESSAGES CONTROL']
-disable = "C,logging-fstring-interpolation,line-too-long,fixme,broad-exception-caught,missing-module-docstring,too-many-instance-attributes,too-few-public-methods,too-many-arguments,too-many-locals,too-many-branches,too-many-statements,use-dict-literal,cyclic-import,duplicate-code,too-many-public-methods"
-enable = "no-else-return,consider-using-in"
-
-[tool.black]
-line-length = 100
-
 [tool.ruff]
-line-length = 100 # Same as Black.
+line-length = 100
 
 target-version = "py310"
 
 [tool.ruff.lint]
 # Never enforce `E501` (line length violations).
-#"F841" will auto remove unused variables which is annoying during development, pylint catches this anyway
+#"F841" will auto remove unused variables which is annoying during development
 ignore = ["E501", "E902", "F841"]
 # Allow unused variables when underscore-prefixed.
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"

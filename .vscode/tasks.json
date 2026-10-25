@@ -23,13 +23,13 @@
 		},
 		{
 			"label": "autoformat",
-			"detail": "Use ruff and black to automatically fix and format the code",
+			"detail": "Use ruff to automatically fix and format the code",
 			"type": "shell",
-			"command": "pixi run fmt"
+			"command": "pixi run style"
 		},		
 		{
 			"label": "lint",
-			"detail": "Run pylint on files tracked by git",
+			"detail": "Run ruff check on the code",
 			"type": "shell",
 			"command": "pixi run lint"
 		},
@@ -104,16 +104,6 @@
 			"type": "shell",
 			"command": "scripts/rename_project.sh ${input:new_project_name}"
 		},		
-		{
-			"label": "flit install",
-			"type": "shell",
-			"command": "flit install --symlink"
-		},
-		{
-			"label": "flit publish",
-			"type": "shell",
-			"command": "flit publish"
-		},				
 		{
 			"label": "setup: host",
 			"detail": "Sets up docker, nvidia docker git-lfs and rocker which are used to clone and setup docker containers",
